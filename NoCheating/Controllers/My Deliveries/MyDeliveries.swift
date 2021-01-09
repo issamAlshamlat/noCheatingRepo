@@ -81,12 +81,8 @@ class MyDeliveries: UIViewController {
                 self.deliveryTableView.reloadData()
             }else {
                 if self.dbManager.openDatabase() {
-                    let alertt = UIAlertController (title: "", message: "openede", preferredStyle: .alert)
-                    self.present(alertt, animated: true, completion: nil)
                     self.dataSource = self.dbManager.loadNotes()
                 }else {
-                    let alertf = UIAlertController (title: "", message: "not opened", preferredStyle: .alert)
-                    self.present(alertf, animated: true, completion: nil)
                 }
                 self.deliveryTableView.reloadData()
             }

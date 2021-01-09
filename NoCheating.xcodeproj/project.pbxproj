@@ -55,17 +55,17 @@
 		9A25E46996E6177400384437 /* Pods-LalaMove-LalaMoveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LalaMove-LalaMoveUITests.debug.xcconfig"; path = "Target Support Files/Pods-LalaMove-LalaMoveUITests/Pods-LalaMove-LalaMoveUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B83B5EA0336F6937544DC3C5 /* Pods-LalaMove.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LalaMove.release.xcconfig"; path = "Target Support Files/Pods-LalaMove/Pods-LalaMove.release.xcconfig"; sourceTree = "<group>"; };
 		C2221EEE25A9D73C00BE87E3 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
-		C26937F525A4E0DD0017281D /* LalaMove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LalaMove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C26937F525A4E0DD0017281D /* NoCheating.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoCheating.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C26937F825A4E0DD0017281D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C26937FA25A4E0DD0017281D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C26937FC25A4E0DD0017281D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C269380125A4E0E30017281D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C269380425A4E0E30017281D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C269380625A4E0E30017281D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C269380B25A4E0E40017281D /* LalaMoveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LalaMoveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C269380B25A4E0E40017281D /* NoCheatingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoCheatingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C269380F25A4E0E40017281D /* LalaMoveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LalaMoveTests.swift; sourceTree = "<group>"; };
 		C269381125A4E0E40017281D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C269381625A4E0E40017281D /* LalaMoveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LalaMoveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C269381625A4E0E40017281D /* NoCheatingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoCheatingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C269381A25A4E0E40017281D /* LalaMoveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LalaMoveUITests.swift; sourceTree = "<group>"; };
 		C269381C25A4E0E40017281D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C269383025A4E0FF0017281D /* BaseRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRequestManager.swift; sourceTree = "<group>"; };
@@ -144,7 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				C269382B25A4E0EB0017281D /* Tests */,
-				C26937F725A4E0DD0017281D /* LalaMove */,
+				C26937F725A4E0DD0017281D /* NoCheating */,
 				C26937F625A4E0DD0017281D /* Products */,
 				1B1E09B7E712368A79AE47E4 /* Pods */,
 				3C5F309CD53B97D2F72A00BA /* Frameworks */,
@@ -154,14 +154,14 @@
 		C26937F625A4E0DD0017281D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C26937F525A4E0DD0017281D /* LalaMove.app */,
-				C269380B25A4E0E40017281D /* LalaMoveTests.xctest */,
-				C269381625A4E0E40017281D /* LalaMoveUITests.xctest */,
+				C26937F525A4E0DD0017281D /* NoCheating.app */,
+				C269380B25A4E0E40017281D /* NoCheatingTests.xctest */,
+				C269381625A4E0E40017281D /* NoCheatingUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C26937F725A4E0DD0017281D /* LalaMove */ = {
+		C26937F725A4E0DD0017281D /* NoCheating */ = {
 			isa = PBXGroup;
 			children = (
 				C269384925A4E1110017281D /* Models */,
@@ -175,7 +175,7 @@
 				C269380325A4E0E30017281D /* LaunchScreen.storyboard */,
 				C269380625A4E0E30017281D /* Info.plist */,
 			);
-			path = LalaMove;
+			path = NoCheating;
 			sourceTree = "<group>";
 		};
 		C269380E25A4E0E40017281D /* LalaMoveTests */ = {
@@ -286,9 +286,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C26937F425A4E0DD0017281D /* LalaMove */ = {
+		C26937F425A4E0DD0017281D /* NoCheating */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C269381F25A4E0E40017281D /* Build configuration list for PBXNativeTarget "LalaMove" */;
+			buildConfigurationList = C269381F25A4E0E40017281D /* Build configuration list for PBXNativeTarget "NoCheating" */;
 			buildPhases = (
 				BEAB54D53D85172A89C7E1F7 /* [CP] Check Pods Manifest.lock */,
 				C26937F125A4E0DD0017281D /* Sources */,
@@ -300,14 +300,14 @@
 			);
 			dependencies = (
 			);
-			name = LalaMove;
+			name = NoCheating;
 			productName = LalaMove;
-			productReference = C26937F525A4E0DD0017281D /* LalaMove.app */;
+			productReference = C26937F525A4E0DD0017281D /* NoCheating.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C269380A25A4E0E40017281D /* LalaMoveTests */ = {
+		C269380A25A4E0E40017281D /* NoCheatingTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C269382225A4E0E40017281D /* Build configuration list for PBXNativeTarget "LalaMoveTests" */;
+			buildConfigurationList = C269382225A4E0E40017281D /* Build configuration list for PBXNativeTarget "NoCheatingTests" */;
 			buildPhases = (
 				2808C4393B2340867F64603B /* [CP] Check Pods Manifest.lock */,
 				C269380725A4E0E40017281D /* Sources */,
@@ -319,14 +319,14 @@
 			dependencies = (
 				C269380D25A4E0E40017281D /* PBXTargetDependency */,
 			);
-			name = LalaMoveTests;
+			name = NoCheatingTests;
 			productName = LalaMoveTests;
-			productReference = C269380B25A4E0E40017281D /* LalaMoveTests.xctest */;
+			productReference = C269380B25A4E0E40017281D /* NoCheatingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C269381525A4E0E40017281D /* LalaMoveUITests */ = {
+		C269381525A4E0E40017281D /* NoCheatingUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C269382525A4E0E40017281D /* Build configuration list for PBXNativeTarget "LalaMoveUITests" */;
+			buildConfigurationList = C269382525A4E0E40017281D /* Build configuration list for PBXNativeTarget "NoCheatingUITests" */;
 			buildPhases = (
 				6A9CC5EDB219B6380053009A /* [CP] Check Pods Manifest.lock */,
 				C269381225A4E0E40017281D /* Sources */,
@@ -339,9 +339,9 @@
 			dependencies = (
 				C269381825A4E0E40017281D /* PBXTargetDependency */,
 			);
-			name = LalaMoveUITests;
+			name = NoCheatingUITests;
 			productName = LalaMoveUITests;
-			productReference = C269381625A4E0E40017281D /* LalaMoveUITests.xctest */;
+			productReference = C269381625A4E0E40017281D /* NoCheatingUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -366,7 +366,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C26937F025A4E0DD0017281D /* Build configuration list for PBXProject "LalaMove" */;
+			buildConfigurationList = C26937F025A4E0DD0017281D /* Build configuration list for PBXProject "NoCheating" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -379,9 +379,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C26937F425A4E0DD0017281D /* LalaMove */,
-				C269380A25A4E0E40017281D /* LalaMoveTests */,
-				C269381525A4E0E40017281D /* LalaMoveUITests */,
+				C26937F425A4E0DD0017281D /* NoCheating */,
+				C269380A25A4E0E40017281D /* NoCheatingTests */,
+				C269381525A4E0E40017281D /* NoCheatingUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -557,12 +557,12 @@
 /* Begin PBXTargetDependency section */
 		C269380D25A4E0E40017281D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C26937F425A4E0DD0017281D /* LalaMove */;
+			target = C26937F425A4E0DD0017281D /* NoCheating */;
 			targetProxy = C269380C25A4E0E40017281D /* PBXContainerItemProxy */;
 		};
 		C269381825A4E0E40017281D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C26937F425A4E0DD0017281D /* LalaMove */;
+			target = C26937F425A4E0DD0017281D /* NoCheating */;
 			targetProxy = C269381725A4E0E40017281D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -702,8 +702,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = LalaMove/Info.plist;
+				DEVELOPMENT_TEAM = 55E6ZT73D6;
+				INFOPLIST_FILE = NoCheating/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -711,7 +712,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = LalaMove.LalaMove;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -722,8 +723,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = LalaMove/Info.plist;
+				DEVELOPMENT_TEAM = 55E6ZT73D6;
+				INFOPLIST_FILE = NoCheating/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -731,7 +733,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = LalaMove.LalaMove;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -753,7 +755,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LalaMove.app/LalaMove";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoCheating.app/NoCheating";
 			};
 			name = Debug;
 		};
@@ -775,7 +777,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LalaMove.app/LalaMove";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoCheating.app/NoCheating";
 			};
 			name = Release;
 		};
@@ -822,7 +824,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C26937F025A4E0DD0017281D /* Build configuration list for PBXProject "LalaMove" */ = {
+		C26937F025A4E0DD0017281D /* Build configuration list for PBXProject "NoCheating" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C269381D25A4E0E40017281D /* Debug */,
@@ -831,7 +833,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C269381F25A4E0E40017281D /* Build configuration list for PBXNativeTarget "LalaMove" */ = {
+		C269381F25A4E0E40017281D /* Build configuration list for PBXNativeTarget "NoCheating" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C269382025A4E0E40017281D /* Debug */,
@@ -840,7 +842,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C269382225A4E0E40017281D /* Build configuration list for PBXNativeTarget "LalaMoveTests" */ = {
+		C269382225A4E0E40017281D /* Build configuration list for PBXNativeTarget "NoCheatingTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C269382325A4E0E40017281D /* Debug */,
@@ -849,7 +851,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C269382525A4E0E40017281D /* Build configuration list for PBXNativeTarget "LalaMoveUITests" */ = {
+		C269382525A4E0E40017281D /* Build configuration list for PBXNativeTarget "NoCheatingUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C269382625A4E0E40017281D /* Debug */,
