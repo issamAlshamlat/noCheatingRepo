@@ -9,8 +9,6 @@ import UIKit
 import SVProgressHUD
 import Kingfisher
 
-
-
 class MyDeliveries: UIViewController {
     
     private var deliveryTableView: UITableView!
@@ -19,6 +17,7 @@ class MyDeliveries: UIViewController {
     var offset: Int = 0
     var limit: Int = 20
     var isDataLoading: Bool = false
+    var dbManager = DBManager ()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,6 +38,7 @@ class MyDeliveries: UIViewController {
     }
     
     private func setup () {
+        
         self.title = "My Deliveries"
         favouriteItemsIds =  UserDefaults.standard.stringArray(forKey: "favArr") != nil ? UserDefaults.standard.stringArray(forKey: "favArr")! : []
         dataSource.removeAll()
@@ -70,22 +70,18 @@ class MyDeliveries: UIViewController {
                     print("Dedode Error bookings")
                     return
                 }
-                UserDefaults.standard.set(response, forKey: Constants.UserDefaultsString.deliveryJson)
                 for delivery in response {
                     self.dataSource.append(Delivery(delivery))
                 }
-                for i in self.dataSource {
-                    print (i.goodsPicture)
+                
+                if self.dbManager.openDatabase() {
+                    self.dbManager.insertDeliveryData(delivery: self.dataSource)
+                    let d = self.dbManager.loadNotes()
                 }
+
                 self.deliveryTableView.reloadData()
             }else {
-                guard let cashedResponse = UserDefaults.standard.array(forKey: Constants.UserDefaultsString.deliveryJson) else {
-                    self.fetchData()
-                    return
-                }
-                for delivery in cashedResponse {
-                    self.dataSource.append(Delivery(delivery as! Dictionary<String, AnyObject>))
-                }
+                self.dataSource = self.dbManager.loadNotes()
                 self.deliveryTableView.reloadData()
             }
         }
@@ -121,8 +117,6 @@ extension MyDeliveries : UITableViewDelegate , UITableViewDataSource {
 extension MyDeliveries : UIScrollViewDelegate {
     
     func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
-
-            print("scrollViewWillBeginDragging")
             isDataLoading = false
         }
     

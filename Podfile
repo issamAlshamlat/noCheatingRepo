@@ -10,7 +10,7 @@ target 'LalaMove' do
 pod 'Alamofire'
 pod 'Kingfisher'
 pod 'SVProgressHUD'
-
+pod 'FMDB'
 
   target 'LalaMoveTests' do
     inherit! :search_paths

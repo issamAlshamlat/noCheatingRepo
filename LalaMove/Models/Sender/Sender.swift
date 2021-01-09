@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Sender {
+struct Sender  {
     var phone: String
     var name: String
     var email: String

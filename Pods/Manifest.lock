@@ -1,24 +1,30 @@
 PODS:
   - Alamofire (4.9.1)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
   - Kingfisher (4.10.1)
   - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
   - Alamofire
+  - FMDB
   - Kingfisher
   - SVProgressHUD
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - FMDB
     - Kingfisher
     - SVProgressHUD
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: a4f0d9e2cb0d3c6caccc8d17abb283ac3150cf3e
+PODFILE CHECKSUM: 3336090ed90a10011146e0aefbd7afd2905e2d73
 
 COCOAPODS: 1.10.0.beta.2

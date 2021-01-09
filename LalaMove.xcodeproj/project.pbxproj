@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B10FA6AA595B0D8DF06B42FB /* Pods_LalaMoveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCABA63D1F4175BB388BA0DF /* Pods_LalaMoveTests.framework */; };
 		B2A511858F5688DD1C625D2A /* Pods_LalaMove_LalaMoveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4438E026F2FA3BBBC6E081 /* Pods_LalaMove_LalaMoveUITests.framework */; };
+		C2221EEF25A9D73C00BE87E3 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2221EEE25A9D73C00BE87E3 /* DBManager.swift */; };
 		C26937F925A4E0DD0017281D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26937F825A4E0DD0017281D /* AppDelegate.swift */; };
 		C26937FB25A4E0DD0017281D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26937FA25A4E0DD0017281D /* SceneDelegate.swift */; };
 		C26937FD25A4E0DD0017281D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26937FC25A4E0DD0017281D /* ViewController.swift */; };
@@ -53,6 +54,7 @@
 		7A4438E026F2FA3BBBC6E081 /* Pods_LalaMove_LalaMoveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LalaMove_LalaMoveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A25E46996E6177400384437 /* Pods-LalaMove-LalaMoveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LalaMove-LalaMoveUITests.debug.xcconfig"; path = "Target Support Files/Pods-LalaMove-LalaMoveUITests/Pods-LalaMove-LalaMoveUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B83B5EA0336F6937544DC3C5 /* Pods-LalaMove.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LalaMove.release.xcconfig"; path = "Target Support Files/Pods-LalaMove/Pods-LalaMove.release.xcconfig"; sourceTree = "<group>"; };
+		C2221EEE25A9D73C00BE87E3 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		C26937F525A4E0DD0017281D /* LalaMove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LalaMove.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C26937F825A4E0DD0017281D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C26937FA25A4E0DD0017281D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -128,6 +130,14 @@
 				FCABA63D1F4175BB388BA0DF /* Pods_LalaMoveTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2221EED25A9D72600BE87E3 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				C2221EEE25A9D73C00BE87E3 /* DBManager.swift */,
+			);
+			path = DB;
 			sourceTree = "<group>";
 		};
 		C26937EC25A4E0DD0017281D = {
@@ -207,6 +217,7 @@
 		C269383725A4E1060017281D /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				C2221EED25A9D72600BE87E3 /* DB */,
 				C269383825A4E1060017281D /* Constants.swift */,
 			);
 			path = Helpers;
@@ -512,6 +523,7 @@
 				C269383325A4E0FF0017281D /* LalaMoveRequestManager.swift in Sources */,
 				C269385225A4E1110017281D /* Delivery.swift in Sources */,
 				C26937FD25A4E0DD0017281D /* ViewController.swift in Sources */,
+				C2221EEF25A9D73C00BE87E3 /* DBManager.swift in Sources */,
 				C26937F925A4E0DD0017281D /* AppDelegate.swift in Sources */,
 				C269385025A4E1110017281D /* Route.swift in Sources */,
 				C269383225A4E0FF0017281D /* BaseRequestManager.swift in Sources */,
