@@ -1,0 +1,852 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B10FA6AA595B0D8DF06B42FB /* Pods_LalaMoveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCABA63D1F4175BB388BA0DF /* Pods_LalaMoveTests.framework */; };
+		B2A511858F5688DD1C625D2A /* Pods_LalaMove_LalaMoveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4438E026F2FA3BBBC6E081 /* Pods_LalaMove_LalaMoveUITests.framework */; };
+		C26937F925A4E0DD0017281D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26937F825A4E0DD0017281D /* AppDelegate.swift */; };
+		C26937FB25A4E0DD0017281D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26937FA25A4E0DD0017281D /* SceneDelegate.swift */; };
+		C26937FD25A4E0DD0017281D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26937FC25A4E0DD0017281D /* ViewController.swift */; };
+		C269380225A4E0E30017281D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C269380125A4E0E30017281D /* Assets.xcassets */; };
+		C269380525A4E0E30017281D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C269380325A4E0E30017281D /* LaunchScreen.storyboard */; };
+		C269381025A4E0E40017281D /* LalaMoveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C269380F25A4E0E40017281D /* LalaMoveTests.swift */; };
+		C269381B25A4E0E40017281D /* LalaMoveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C269381A25A4E0E40017281D /* LalaMoveUITests.swift */; };
+		C269383225A4E0FF0017281D /* BaseRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C269383025A4E0FF0017281D /* BaseRequestManager.swift */; };
+		C269383325A4E0FF0017281D /* LalaMoveRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C269383125A4E0FF0017281D /* LalaMoveRequestManager.swift */; };
+		C269383925A4E1070017281D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C269383825A4E1060017281D /* Constants.swift */; };
+		C269384325A4E10B0017281D /* DeliveryItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C269383F25A4E10B0017281D /* DeliveryItemTableViewCell.swift */; };
+		C269384425A4E10B0017281D /* MyDeliveries.swift in Sources */ = {isa = PBXBuildFile; fileRef = C269384025A4E10B0017281D /* MyDeliveries.swift */; };
+		C269384525A4E10B0017281D /* DeliveryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = C269384225A4E10B0017281D /* DeliveryDetails.swift */; };
+		C269385025A4E1110017281D /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = C269384B25A4E1110017281D /* Route.swift */; };
+		C269385125A4E1110017281D /* Sender.swift in Sources */ = {isa = PBXBuildFile; fileRef = C269384D25A4E1110017281D /* Sender.swift */; };
+		C269385225A4E1110017281D /* Delivery.swift in Sources */ = {isa = PBXBuildFile; fileRef = C269384F25A4E1110017281D /* Delivery.swift */; };
+		E2D0126A0B76C3BDD57A4C36 /* Pods_LalaMove.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333E522DAA9CB711D225174F /* Pods_LalaMove.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C269380C25A4E0E40017281D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C26937ED25A4E0DD0017281D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C26937F425A4E0DD0017281D;
+			remoteInfo = LalaMove;
+		};
+		C269381725A4E0E40017281D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C26937ED25A4E0DD0017281D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C26937F425A4E0DD0017281D;
+			remoteInfo = LalaMove;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16B4CBD18EC175829224CA10 /* Pods-LalaMove-LalaMoveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LalaMove-LalaMoveUITests.release.xcconfig"; path = "Target Support Files/Pods-LalaMove-LalaMoveUITests/Pods-LalaMove-LalaMoveUITests.release.xcconfig"; sourceTree = "<group>"; };
+		333E522DAA9CB711D225174F /* Pods_LalaMove.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LalaMove.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67E5246F73679B305D079A6F /* Pods-LalaMove.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LalaMove.debug.xcconfig"; path = "Target Support Files/Pods-LalaMove/Pods-LalaMove.debug.xcconfig"; sourceTree = "<group>"; };
+		6E279F01BD8ED16F7601C829 /* Pods-LalaMoveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LalaMoveTests.release.xcconfig"; path = "Target Support Files/Pods-LalaMoveTests/Pods-LalaMoveTests.release.xcconfig"; sourceTree = "<group>"; };
+		7A4438E026F2FA3BBBC6E081 /* Pods_LalaMove_LalaMoveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LalaMove_LalaMoveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A25E46996E6177400384437 /* Pods-LalaMove-LalaMoveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LalaMove-LalaMoveUITests.debug.xcconfig"; path = "Target Support Files/Pods-LalaMove-LalaMoveUITests/Pods-LalaMove-LalaMoveUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B83B5EA0336F6937544DC3C5 /* Pods-LalaMove.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LalaMove.release.xcconfig"; path = "Target Support Files/Pods-LalaMove/Pods-LalaMove.release.xcconfig"; sourceTree = "<group>"; };
+		C26937F525A4E0DD0017281D /* LalaMove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LalaMove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C26937F825A4E0DD0017281D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C26937FA25A4E0DD0017281D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C26937FC25A4E0DD0017281D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C269380125A4E0E30017281D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C269380425A4E0E30017281D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C269380625A4E0E30017281D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C269380B25A4E0E40017281D /* LalaMoveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LalaMoveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C269380F25A4E0E40017281D /* LalaMoveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LalaMoveTests.swift; sourceTree = "<group>"; };
+		C269381125A4E0E40017281D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C269381625A4E0E40017281D /* LalaMoveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LalaMoveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C269381A25A4E0E40017281D /* LalaMoveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LalaMoveUITests.swift; sourceTree = "<group>"; };
+		C269381C25A4E0E40017281D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C269383025A4E0FF0017281D /* BaseRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRequestManager.swift; sourceTree = "<group>"; };
+		C269383125A4E0FF0017281D /* LalaMoveRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LalaMoveRequestManager.swift; sourceTree = "<group>"; };
+		C269383825A4E1060017281D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C269383F25A4E10B0017281D /* DeliveryItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeliveryItemTableViewCell.swift; sourceTree = "<group>"; };
+		C269384025A4E10B0017281D /* MyDeliveries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDeliveries.swift; sourceTree = "<group>"; };
+		C269384225A4E10B0017281D /* DeliveryDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeliveryDetails.swift; sourceTree = "<group>"; };
+		C269384B25A4E1110017281D /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		C269384D25A4E1110017281D /* Sender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sender.swift; sourceTree = "<group>"; };
+		C269384F25A4E1110017281D /* Delivery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delivery.swift; sourceTree = "<group>"; };
+		F58470B795C1664C8E467F2B /* Pods-LalaMoveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LalaMoveTests.debug.xcconfig"; path = "Target Support Files/Pods-LalaMoveTests/Pods-LalaMoveTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FCABA63D1F4175BB388BA0DF /* Pods_LalaMoveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LalaMoveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C26937F225A4E0DD0017281D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2D0126A0B76C3BDD57A4C36 /* Pods_LalaMove.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C269380825A4E0E40017281D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10FA6AA595B0D8DF06B42FB /* Pods_LalaMoveTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C269381325A4E0E40017281D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2A511858F5688DD1C625D2A /* Pods_LalaMove_LalaMoveUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B1E09B7E712368A79AE47E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67E5246F73679B305D079A6F /* Pods-LalaMove.debug.xcconfig */,
+				B83B5EA0336F6937544DC3C5 /* Pods-LalaMove.release.xcconfig */,
+				9A25E46996E6177400384437 /* Pods-LalaMove-LalaMoveUITests.debug.xcconfig */,
+				16B4CBD18EC175829224CA10 /* Pods-LalaMove-LalaMoveUITests.release.xcconfig */,
+				F58470B795C1664C8E467F2B /* Pods-LalaMoveTests.debug.xcconfig */,
+				6E279F01BD8ED16F7601C829 /* Pods-LalaMoveTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3C5F309CD53B97D2F72A00BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				333E522DAA9CB711D225174F /* Pods_LalaMove.framework */,
+				7A4438E026F2FA3BBBC6E081 /* Pods_LalaMove_LalaMoveUITests.framework */,
+				FCABA63D1F4175BB388BA0DF /* Pods_LalaMoveTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C26937EC25A4E0DD0017281D = {
+			isa = PBXGroup;
+			children = (
+				C269382B25A4E0EB0017281D /* Tests */,
+				C26937F725A4E0DD0017281D /* LalaMove */,
+				C26937F625A4E0DD0017281D /* Products */,
+				1B1E09B7E712368A79AE47E4 /* Pods */,
+				3C5F309CD53B97D2F72A00BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C26937F625A4E0DD0017281D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C26937F525A4E0DD0017281D /* LalaMove.app */,
+				C269380B25A4E0E40017281D /* LalaMoveTests.xctest */,
+				C269381625A4E0E40017281D /* LalaMoveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C26937F725A4E0DD0017281D /* LalaMove */ = {
+			isa = PBXGroup;
+			children = (
+				C269384925A4E1110017281D /* Models */,
+				C269383D25A4E10B0017281D /* Controllers */,
+				C269383725A4E1060017281D /* Helpers */,
+				C269382F25A4E0FF0017281D /* Networking */,
+				C26937F825A4E0DD0017281D /* AppDelegate.swift */,
+				C26937FA25A4E0DD0017281D /* SceneDelegate.swift */,
+				C26937FC25A4E0DD0017281D /* ViewController.swift */,
+				C269380125A4E0E30017281D /* Assets.xcassets */,
+				C269380325A4E0E30017281D /* LaunchScreen.storyboard */,
+				C269380625A4E0E30017281D /* Info.plist */,
+			);
+			path = LalaMove;
+			sourceTree = "<group>";
+		};
+		C269380E25A4E0E40017281D /* LalaMoveTests */ = {
+			isa = PBXGroup;
+			children = (
+				C269380F25A4E0E40017281D /* LalaMoveTests.swift */,
+				C269381125A4E0E40017281D /* Info.plist */,
+			);
+			path = LalaMoveTests;
+			sourceTree = "<group>";
+		};
+		C269381925A4E0E40017281D /* LalaMoveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C269381A25A4E0E40017281D /* LalaMoveUITests.swift */,
+				C269381C25A4E0E40017281D /* Info.plist */,
+			);
+			path = LalaMoveUITests;
+			sourceTree = "<group>";
+		};
+		C269382B25A4E0EB0017281D /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C269381925A4E0E40017281D /* LalaMoveUITests */,
+				C269380E25A4E0E40017281D /* LalaMoveTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		C269382F25A4E0FF0017281D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C269383025A4E0FF0017281D /* BaseRequestManager.swift */,
+				C269383125A4E0FF0017281D /* LalaMoveRequestManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		C269383725A4E1060017281D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C269383825A4E1060017281D /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C269383D25A4E10B0017281D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C269383E25A4E10B0017281D /* My Deliveries */,
+				C269384125A4E10B0017281D /* Delivery Details */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C269383E25A4E10B0017281D /* My Deliveries */ = {
+			isa = PBXGroup;
+			children = (
+				C269383F25A4E10B0017281D /* DeliveryItemTableViewCell.swift */,
+				C269384025A4E10B0017281D /* MyDeliveries.swift */,
+			);
+			path = "My Deliveries";
+			sourceTree = "<group>";
+		};
+		C269384125A4E10B0017281D /* Delivery Details */ = {
+			isa = PBXGroup;
+			children = (
+				C269384225A4E10B0017281D /* DeliveryDetails.swift */,
+			);
+			path = "Delivery Details";
+			sourceTree = "<group>";
+		};
+		C269384925A4E1110017281D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C269384A25A4E1110017281D /* Route */,
+				C269384C25A4E1110017281D /* Sender */,
+				C269384E25A4E1110017281D /* Delivery */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C269384A25A4E1110017281D /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				C269384B25A4E1110017281D /* Route.swift */,
+			);
+			path = Route;
+			sourceTree = "<group>";
+		};
+		C269384C25A4E1110017281D /* Sender */ = {
+			isa = PBXGroup;
+			children = (
+				C269384D25A4E1110017281D /* Sender.swift */,
+			);
+			path = Sender;
+			sourceTree = "<group>";
+		};
+		C269384E25A4E1110017281D /* Delivery */ = {
+			isa = PBXGroup;
+			children = (
+				C269384F25A4E1110017281D /* Delivery.swift */,
+			);
+			path = Delivery;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C26937F425A4E0DD0017281D /* LalaMove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C269381F25A4E0E40017281D /* Build configuration list for PBXNativeTarget "LalaMove" */;
+			buildPhases = (
+				BEAB54D53D85172A89C7E1F7 /* [CP] Check Pods Manifest.lock */,
+				C26937F125A4E0DD0017281D /* Sources */,
+				C26937F225A4E0DD0017281D /* Frameworks */,
+				C26937F325A4E0DD0017281D /* Resources */,
+				E4F712F60CCE98BAE5C9C568 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LalaMove;
+			productName = LalaMove;
+			productReference = C26937F525A4E0DD0017281D /* LalaMove.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C269380A25A4E0E40017281D /* LalaMoveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C269382225A4E0E40017281D /* Build configuration list for PBXNativeTarget "LalaMoveTests" */;
+			buildPhases = (
+				2808C4393B2340867F64603B /* [CP] Check Pods Manifest.lock */,
+				C269380725A4E0E40017281D /* Sources */,
+				C269380825A4E0E40017281D /* Frameworks */,
+				C269380925A4E0E40017281D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C269380D25A4E0E40017281D /* PBXTargetDependency */,
+			);
+			name = LalaMoveTests;
+			productName = LalaMoveTests;
+			productReference = C269380B25A4E0E40017281D /* LalaMoveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C269381525A4E0E40017281D /* LalaMoveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C269382525A4E0E40017281D /* Build configuration list for PBXNativeTarget "LalaMoveUITests" */;
+			buildPhases = (
+				6A9CC5EDB219B6380053009A /* [CP] Check Pods Manifest.lock */,
+				C269381225A4E0E40017281D /* Sources */,
+				C269381325A4E0E40017281D /* Frameworks */,
+				C269381425A4E0E40017281D /* Resources */,
+				8B2C8875C48B9FBA3823F3E0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C269381825A4E0E40017281D /* PBXTargetDependency */,
+			);
+			name = LalaMoveUITests;
+			productName = LalaMoveUITests;
+			productReference = C269381625A4E0E40017281D /* LalaMoveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C26937ED25A4E0DD0017281D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					C26937F425A4E0DD0017281D = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					C269380A25A4E0E40017281D = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = C26937F425A4E0DD0017281D;
+					};
+					C269381525A4E0E40017281D = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = C26937F425A4E0DD0017281D;
+					};
+				};
+			};
+			buildConfigurationList = C26937F025A4E0DD0017281D /* Build configuration list for PBXProject "LalaMove" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C26937EC25A4E0DD0017281D;
+			productRefGroup = C26937F625A4E0DD0017281D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C26937F425A4E0DD0017281D /* LalaMove */,
+				C269380A25A4E0E40017281D /* LalaMoveTests */,
+				C269381525A4E0E40017281D /* LalaMoveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C26937F325A4E0DD0017281D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C269380525A4E0E30017281D /* LaunchScreen.storyboard in Resources */,
+				C269380225A4E0E30017281D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C269380925A4E0E40017281D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C269381425A4E0E40017281D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2808C4393B2340867F64603B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LalaMoveTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A9CC5EDB219B6380053009A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LalaMove-LalaMoveUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B2C8875C48B9FBA3823F3E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LalaMove-LalaMoveUITests/Pods-LalaMove-LalaMoveUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LalaMove-LalaMoveUITests/Pods-LalaMove-LalaMoveUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LalaMove-LalaMoveUITests/Pods-LalaMove-LalaMoveUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEAB54D53D85172A89C7E1F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LalaMove-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4F712F60CCE98BAE5C9C568 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LalaMove/Pods-LalaMove-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LalaMove/Pods-LalaMove-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LalaMove/Pods-LalaMove-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C26937F125A4E0DD0017281D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C269383325A4E0FF0017281D /* LalaMoveRequestManager.swift in Sources */,
+				C269385225A4E1110017281D /* Delivery.swift in Sources */,
+				C26937FD25A4E0DD0017281D /* ViewController.swift in Sources */,
+				C26937F925A4E0DD0017281D /* AppDelegate.swift in Sources */,
+				C269385025A4E1110017281D /* Route.swift in Sources */,
+				C269383225A4E0FF0017281D /* BaseRequestManager.swift in Sources */,
+				C269385125A4E1110017281D /* Sender.swift in Sources */,
+				C26937FB25A4E0DD0017281D /* SceneDelegate.swift in Sources */,
+				C269384525A4E10B0017281D /* DeliveryDetails.swift in Sources */,
+				C269383925A4E1070017281D /* Constants.swift in Sources */,
+				C269384325A4E10B0017281D /* DeliveryItemTableViewCell.swift in Sources */,
+				C269384425A4E10B0017281D /* MyDeliveries.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C269380725A4E0E40017281D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C269381025A4E0E40017281D /* LalaMoveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C269381225A4E0E40017281D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C269381B25A4E0E40017281D /* LalaMoveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C269380D25A4E0E40017281D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C26937F425A4E0DD0017281D /* LalaMove */;
+			targetProxy = C269380C25A4E0E40017281D /* PBXContainerItemProxy */;
+		};
+		C269381825A4E0E40017281D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C26937F425A4E0DD0017281D /* LalaMove */;
+			targetProxy = C269381725A4E0E40017281D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C269380325A4E0E30017281D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C269380425A4E0E30017281D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C269381D25A4E0E40017281D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C269381E25A4E0E40017281D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C269382025A4E0E40017281D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67E5246F73679B305D079A6F /* Pods-LalaMove.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55E6ZT73D6;
+				INFOPLIST_FILE = LalaMove/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LalaMove.LalaMove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C269382125A4E0E40017281D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B83B5EA0336F6937544DC3C5 /* Pods-LalaMove.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55E6ZT73D6;
+				INFOPLIST_FILE = LalaMove/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LalaMove.LalaMove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C269382325A4E0E40017281D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F58470B795C1664C8E467F2B /* Pods-LalaMoveTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LalaMoveTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LalaMove.LalaMoveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LalaMove.app/LalaMove";
+			};
+			name = Debug;
+		};
+		C269382425A4E0E40017281D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E279F01BD8ED16F7601C829 /* Pods-LalaMoveTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LalaMoveTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LalaMove.LalaMoveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LalaMove.app/LalaMove";
+			};
+			name = Release;
+		};
+		C269382625A4E0E40017281D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A25E46996E6177400384437 /* Pods-LalaMove-LalaMoveUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LalaMoveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LalaMove.LalaMoveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LalaMove;
+			};
+			name = Debug;
+		};
+		C269382725A4E0E40017281D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16B4CBD18EC175829224CA10 /* Pods-LalaMove-LalaMoveUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LalaMoveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LalaMove.LalaMoveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LalaMove;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C26937F025A4E0DD0017281D /* Build configuration list for PBXProject "LalaMove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C269381D25A4E0E40017281D /* Debug */,
+				C269381E25A4E0E40017281D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C269381F25A4E0E40017281D /* Build configuration list for PBXNativeTarget "LalaMove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C269382025A4E0E40017281D /* Debug */,
+				C269382125A4E0E40017281D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C269382225A4E0E40017281D /* Build configuration list for PBXNativeTarget "LalaMoveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C269382325A4E0E40017281D /* Debug */,
+				C269382425A4E0E40017281D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C269382525A4E0E40017281D /* Build configuration list for PBXNativeTarget "LalaMoveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C269382625A4E0E40017281D /* Debug */,
+				C269382725A4E0E40017281D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C26937ED25A4E0DD0017281D /* Project object */;
+}
