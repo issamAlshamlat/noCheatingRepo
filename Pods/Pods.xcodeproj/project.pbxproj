@@ -15,11 +15,12 @@
 		0DC716D6A630FAC820D9EA7E6F36EDF4 /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97AF346A7CBBD5607758A699CE3E2BA /* Placeholder.swift */; };
 		0F72AA9F03EC61C6D857941E0B45811A /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = E313B95663287A8610C7BE509B8A8090 /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		132E0F619E4338E5D1B27E4C72076B3F /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFB898421CB21195EB163CD730270C6 /* Notifications.swift */; };
+		14FF71D5991B99C3678FBF72DC8693E4 /* Pods-NoCheating-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 562B79496DF7FD4DDB6BA53FC83BD04E /* Pods-NoCheating-dummy.m */; };
 		17949EA5A648628698D3045C32125D9A /* FormatIndicatedCacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECBD64AAF250493257B251DE28A8D9F /* FormatIndicatedCacheSerializer.swift */; };
+		18F572B9C0A51B9AA3993F1E8B8F0062 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02E5A2DC84EE77A36380F561125FCBA /* Foundation.framework */; };
 		1945CD5D63A1C164AEAAA9A33E85571E /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 895644EE865215CBBF00A046D43F2935 /* Alamofire-dummy.m */; };
 		1986B50C74F1697EA43F68335C93CEB3 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A887B1C735EB72ACD15AF3797C807CA /* MultipartFormData.swift */; };
 		1D182C2DB0E3A2FC683C635DA33254CD /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77FA56D9DF951DE058E02B470CE7E45 /* UIButton+Kingfisher.swift */; };
-		1D18641E103853416E4A611CB054E3BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02E5A2DC84EE77A36380F561125FCBA /* Foundation.framework */; };
 		218FC76735C2CD3E84F920CE33EDD6FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02E5A2DC84EE77A36380F561125FCBA /* Foundation.framework */; };
 		219BADA8C55CF72273F5A734AA0E0EF6 /* FMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1AF0DCEE1D205A97C68DCC900C2BD69 /* FMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		264E1A478BDFA31DA6842749C72EA535 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 908400AD7393EAB2C10AAD831FDB155C /* SVProgressHUD.bundle */; };
@@ -29,42 +30,43 @@
 		3392F8407B8C6F47A4E47436894642D8 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC22C3CCB2FF6C600934EC0B6416612 /* SVProgressHUD.m */; };
 		33E4D49372B55E745B36382B64130122 /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73A35577CB3F259E5B9817D8C8CCB0A /* AnimatedImageView.swift */; };
 		3571F958A3907B3A806E62D50C2550D4 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43315EB6A486BFCDC36FE8F5B4857D3 /* NetworkReachabilityManager.swift */; };
+		35B8A1362C390D283BECAC282971DF5E /* Pods-NoCheating-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB7DFB52A00E9F351703BFBDD3AB5EC3 /* Pods-NoCheating-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37296B38A55A40BEF65ECFC9B0527D8E /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = C99A38468E39F3C637713956D91CEE1B /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		39FC1A51FF31905080FDA44316A2E3FA /* Kingfisher.h in Headers */ = {isa = PBXBuildFile; fileRef = FB176EAC6187028BEE417DAF5AEA1A3E /* Kingfisher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4015497700167E2F7A78FB0FA8728D83 /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBB67B5214351C8C97064677682363E /* ImageView+Kingfisher.swift */; };
 		40B92FDF71624FC72B5AAF014FF827C5 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C21A3EB2A6F20363C14E7362BA095C3 /* String+MD5.swift */; };
 		443C09C19397A4B5599EA6AFC359678D /* ImageModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A4436FD639E45E2A8FAF0C044AADE9 /* ImageModifier.swift */; };
-		44C7945BACC3C358C14840643B12F3C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02E5A2DC84EE77A36380F561125FCBA /* Foundation.framework */; };
+		4F523D33BBE6190D0957AE6057789041 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02E5A2DC84EE77A36380F561125FCBA /* Foundation.framework */; };
 		53164A2DDB944329FD8720F2F0D45228 /* Kingfisher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B6099282438F34749B0BE89D9675E90 /* Kingfisher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53791F5E5F07400F92CFDFC89A432305 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80A66014896518F5F3DA9B082D3AB69 /* Validation.swift */; };
 		538F74CC22D0D13E9D79AC3ECC6DFFE7 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 85FDFC7D227D5508C71F7DDEC68D4D89 /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5548C91B7B13B05D91EE5DAFFB3E8B14 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F07C715132A42D4DFA2D7DF2F739779 /* ImageTransition.swift */; };
 		55B73B58EE9E36E4C860A2135A9796A9 /* Kingfisher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D7D555A26C7AC3CF51EC7E3D9297F2 /* Kingfisher-dummy.m */; };
-		56C43A024159252062A7D2614766989F /* Pods-LalaMove-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F91CE0F2D49C96A168E50A5BB31ED0D7 /* Pods-LalaMove-dummy.m */; };
 		59A62BE2B9F4EE2DB82C1A5705403F51 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F7D385D624B8A5FBD57B683C0B2222 /* ImageProcessor.swift */; };
-		5ADA1E3485F0A771C7B26BE392CBA4BE /* Pods-LalaMoveTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D388E5482B51274729C884AB41B3458D /* Pods-LalaMoveTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5EABE357108BB0AC56B6C7D0AFCC4532 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C4B93A82179BF95FC37E9EC1870F7E /* Indicator.swift */; };
+		6265C6EC95A21AC9D7A4C5D0FD258991 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02E5A2DC84EE77A36380F561125FCBA /* Foundation.framework */; };
 		626CCD3B19CAB7090293FF68A57E610A /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98E5A9CDBB13566BC10A21C5FC31394 /* KingfisherOptionsInfo.swift */; };
 		634E11CA470DB7ADB8F054E30E042B25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02E5A2DC84EE77A36380F561125FCBA /* Foundation.framework */; };
 		64744C911253C3E01461FAD7C935C8D7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = A280E553228E1835764EB264FCDC6F46 /* Result.swift */; };
+		6A0C02C30C09D707F4E4A643CE6F7504 /* Pods-NoCheatingTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B00A02A916A1BF7782FD1712542E92 /* Pods-NoCheatingTests-dummy.m */; };
 		6C58288FB8A294C16676BF03E51AA34D /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DA2ACB5081AA262486AF299E80E106 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		70ECB3E5FED2F2D4F6DEFE366519C8AE /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87D6A3E541F992D246779C3CF5B0054 /* Resource.swift */; };
+		734AF7632C500797C66D93674A81E177 /* Pods-NoCheatingTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68D204C06B79C7161932F69723A738F3 /* Pods-NoCheatingTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7394E123FBD9832A5D6FD726D5D9470C /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 790FFC1EF574F97D4D6DA32797AFAF36 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7664FD4F59A0C00866CBAE60B0A3AD64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02E5A2DC84EE77A36380F561125FCBA /* Foundation.framework */; };
 		7D4E0D91FE60904C9FB50F6D447B8A30 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77721209B272353FFAB0A41B43F7F3D0 /* FMDB-dummy.m */; };
 		83956E20859CDBBE7BC38ABADE0170FB /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38029CA6352F12ABC74C8CA672C1E748 /* AFError.swift */; };
-		92939D2A37312ACB71B5A04BD044A3A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02E5A2DC84EE77A36380F561125FCBA /* Foundation.framework */; };
 		931BBB8230A25161D5C37528A8F9FECF /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A76C4F104E3363619B4C7937420D0C /* SessionManager.swift */; };
 		933FDA5970AA525D6CB92BFEBA2BAB4A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753AFAD9DA1685F0CDEAD485CC2B5C19 /* Timeline.swift */; };
 		96EADE99073DBA8FCE7904627E2D18EE /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FED951A7128547F24446C52DAF4E175 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98A929C8E9012AB167672714FFD2113C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3418E46EB1F927023BEADDAAE2135C /* Request.swift */; };
 		99456829035D2883017E8EBCDB82C231 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9789F460521CDF8CE3841494BEF029F /* QuartzCore.framework */; };
+		9F4BA98D68DE7A0F0D9CF1338F79FD24 /* Pods-NoCheating-NoCheatingUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2883BF2283C98377D50D92EE641652F2 /* Pods-NoCheating-NoCheatingUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9FDEEEE37349769B84A30B0105DFF456 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88842C00496335D46AFCDEB05FA3C137 /* SVProgressHUD-dummy.m */; };
 		A317E632C48B5D4A15D0CBD1E5499430 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE7B2A4422A1814A175A811E46E92C8 /* ImageCache.swift */; };
 		A4420637EE415057C5BA22ABE5A984F9 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E707CAEFAADCE1807A53DFF41455598 /* Image.swift */; };
 		A5C6C6AF307753F62CB842B879E50CB2 /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4917B97210E65EDC68F35A68C0E9F4F7 /* Kingfisher.swift */; };
 		A92CDCFE2DC0D002DE1F208C2FEAB545 /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 55064275FFAB014CB7878795181C4DD6 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA59F36679E3C4259FDDC93FFEAC16B8 /* Pods-LalaMove-LalaMoveUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 048A7D46474C5260E52EC75ECF4BDC77 /* Pods-LalaMove-LalaMoveUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB896E86184C7E4C1B132A6FD48C945F /* ThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B12CB04CD5104253AE179E8BDE310B /* ThreadHelper.swift */; };
 		ABD0719C83EB34C533393B6826E69BC9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88976EFAB0428B4910FE8AC92DCACDA7 /* CFNetwork.framework */; };
 		AFC64B1097F7355FF423D6A73E9C7210 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1991544AC5E9EC7ACEAECDC63C46710 /* TaskDelegate.swift */; };
@@ -74,9 +76,7 @@
 		BEE6B677416CA71C981D1D3F60B18C96 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967E358F1053E65EF0727FB2FFAAB4DE /* Alamofire.swift */; };
 		C08A09B0CEBC18AD963AAFB1778A9848 /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A568E4101DC6620F21F94E5EEAA69C2 /* KingfisherManager.swift */; };
 		C79D4F0D0C79942AAD2B4F16D0766095 /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0CFCBC672317F34A46B5C79F2DD4BA /* CacheSerializer.swift */; };
-		C899CAC41BCA4FC399FBDBA1FD93E4FC /* Pods-LalaMove-LalaMoveUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB06EB94BD344FC05208FE144A78E01 /* Pods-LalaMove-LalaMoveUITests-dummy.m */; };
 		CD92E3C8B2B53B5545D1B0394881A1EB /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A1FEA248CD078FF04E01AFAD92495D /* ImageDownloader.swift */; };
-		D1052576EA43410E3DEC6B290AD7717A /* Pods-LalaMove-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 626627E9EB9070BA7EA5C40818DE3BB9 /* Pods-LalaMove-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D2246BE5AF9C116D84444CC5C955BC02 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7DAFEEB213F84C18BBC043F0402524 /* SVRadialGradientLayer.m */; };
 		D3D8C379C6E4FB487E5ABD6800AD7B7E /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741099041B8D26DE5AB46A521D4C1A02 /* DispatchQueue+Alamofire.swift */; };
 		D4914107FF5A197B9D0BC6D1C089E33D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02E5A2DC84EE77A36380F561125FCBA /* Foundation.framework */; };
@@ -85,101 +85,106 @@
 		DE12057AB8895931A0E9499619C5CFC8 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0416F697CDF8EA6AE662BF9E96E35917 /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E0186A63060F0EB3676F95CD0ACE0E18 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9110EDD84A961665AECF2CFD214471E7 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E3747EC31FCCA97D75A81FC700CF7E24 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F37D2BE66B2252238A789734728E379 /* ResponseSerialization.swift */; };
+		E9194ACA9A5565786555FDC7869459EE /* Pods-NoCheating-NoCheatingUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C91AF8F0363598F5F73BA24183F60F /* Pods-NoCheating-NoCheatingUITests-dummy.m */; };
 		EEAA1518C49804736C3F40117D064CBE /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CBA918E4B1FD458EB668F7DC8B157D /* SVProgressAnimatedView.m */; };
 		F13F2AA7F2E6D95A181CAB99B900D531 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B45BB6EB5AA3DBB6FFE1D9B54A24CF /* ServerTrustPolicy.swift */; };
 		F7B74645E07C39771156A1FA413B98D4 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F631BA8B83353A5037DFF094CE7F5208 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9BC0BCD165A3FCA8636CE51007A28A2 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518B8FA05BCE64DF7B0DECE4E38FA921 /* Filter.swift */; };
 		FDD8729FB9BBE45B90107CA26BE5804B /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D20C458C50D7F2BFC380A577323CC4 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		FFC2A4F6E749C5ED602096E38B698440 /* Pods-LalaMoveTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8146D744516243534539DCB056E52E54 /* Pods-LalaMoveTests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0258A7B050E45CA21648EED94BEC2770 /* PBXContainerItemProxy */ = {
+		4E58DE0CD5155E7B2FA27D629BDC6B11 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
 			remoteInfo = FMDB;
 		};
-		04846AB744D79F2F32F80E2B5E5C66F2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 953867B2E8423E2BE017431B742236F6;
-			remoteInfo = "Pods-LalaMove";
-		};
-		262EB6A01FDDF43CC405D374E328764C /* PBXContainerItemProxy */ = {
+		769C810E126C7051632899900475865A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
 			remoteInfo = Alamofire;
 		};
-		3DFBD6C3C319A85C37C57EF3B71722F2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
-			remoteInfo = SVProgressHUD;
-		};
-		40A660F5812308E36A7296A70F204E14 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
-			remoteInfo = SVProgressHUD;
-		};
-		8189411E4568DC6B7BAB14D223FFBA4D /* PBXContainerItemProxy */ = {
+		7BA114C259EB3AE119874EAA954CFF22 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E8022D22FAA6690B5E1C379C1BCE1491;
 			remoteInfo = Kingfisher;
 		};
-		8EA70C725BA0EBA2A9B32EE39A30870F /* PBXContainerItemProxy */ = {
+		7FA32E85B916C2B0FFF2E9A3D68378B5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
-			remoteInfo = Alamofire;
+			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
+			remoteInfo = SVProgressHUD;
 		};
-		B2D8BDBC100408DBB32E3E1C59D99A64 /* PBXContainerItemProxy */ = {
+		8D5523ED3B16893376379A0B34ACE01D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E8022D22FAA6690B5E1C379C1BCE1491;
-			remoteInfo = Kingfisher;
+			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
+			remoteInfo = SVProgressHUD;
 		};
-		E54318A0E1B945F59B27A9CF94A79854 /* PBXContainerItemProxy */ = {
+		961D6428EA79CB3D60056A3CA867C266 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 171CF316A343C12D3EFC918274B49421;
+			remoteInfo = "Pods-NoCheating";
+		};
+		E14E5E4E0B036B3FB3167A1CF36D5EF9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8592E0E389D40AC17881400ADC67ABC0;
 			remoteInfo = FMDB;
+		};
+		E15B46FCC10CF5A15376928AFB3195FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		F8B1453A2CD1BD5B009AF5F5F5454A1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8022D22FAA6690B5E1C379C1BCE1491;
+			remoteInfo = Kingfisher;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		003631455C64D84496F9EFC140578E4D /* Pods-LalaMove-LalaMoveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LalaMove-LalaMoveUITests.release.xcconfig"; sourceTree = "<group>"; };
 		00DA2ACB5081AA262486AF299E80E106 /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
-		023A2051F74B50F28478DF75040EB3E4 /* Pods-LalaMove.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LalaMove.modulemap"; sourceTree = "<group>"; };
+		03407302D3FC6853D47F427747E491D6 /* Pods-NoCheatingTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NoCheatingTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0393D1A43643C09C1BB31B3DFC9B93F5 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		0416F697CDF8EA6AE662BF9E96E35917 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
-		048A7D46474C5260E52EC75ECF4BDC77 /* Pods-LalaMove-LalaMoveUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LalaMove-LalaMoveUITests-umbrella.h"; sourceTree = "<group>"; };
 		0549CA91E255DEB9667E051729505391 /* RequestModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestModifier.swift; path = Sources/RequestModifier.swift; sourceTree = "<group>"; };
 		07B45BB6EB5AA3DBB6FFE1D9B54A24CF /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 		07BF0585B414A6F0CD9C672008ECCFF2 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
+		09244EC42D5248380EA48F9F48FD0593 /* Pods-NoCheating-NoCheatingUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NoCheating-NoCheatingUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0AA00CADA9D0697FEAC62E0E70D7598C /* Pods-NoCheating.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NoCheating.release.xcconfig"; sourceTree = "<group>"; };
 		0E49FCAB08AA12BBDB6DCD437FD14D09 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
 		0ECBD64AAF250493257B251DE28A8D9F /* FormatIndicatedCacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormatIndicatedCacheSerializer.swift; path = Sources/FormatIndicatedCacheSerializer.swift; sourceTree = "<group>"; };
-		0F3DA7890FAF9C021445A99C50ADB473 /* Pods-LalaMove-LalaMoveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LalaMove-LalaMoveUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		12810728D642C8926D022C7F395DDD60 /* Pods-LalaMove.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LalaMove.debug.xcconfig"; sourceTree = "<group>"; };
-		16BEDAAF59CA1183E4D2BD8A03D29601 /* Pods-LalaMoveTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LalaMoveTests-Info.plist"; sourceTree = "<group>"; };
+		11CB4519D152040C578C20107B14B8C7 /* Pods-NoCheating.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NoCheating.debug.xcconfig"; sourceTree = "<group>"; };
+		130AC961E964AA12119362C716AB28D2 /* Pods_NoCheatingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NoCheatingTests.framework; path = "Pods-NoCheatingTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B46C08D76ED525B942C81B80EA639D2 /* Pods-NoCheating.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NoCheating.modulemap"; sourceTree = "<group>"; };
+		1EAE516D1D64B5884BE103CC2B278064 /* Pods_NoCheating.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NoCheating.framework; path = "Pods-NoCheating.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC97918AF929EE45AFAE4E10C897870 /* FMDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FMDB.modulemap; sourceTree = "<group>"; };
 		220EE64B91158E642E71B51BE846AD58 /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Box.swift; sourceTree = "<group>"; };
 		282F7DD3949CDF24A100477B86A788D2 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
+		2883BF2283C98377D50D92EE641652F2 /* Pods-NoCheating-NoCheatingUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NoCheating-NoCheatingUITests-umbrella.h"; sourceTree = "<group>"; };
 		2893A379CF8672837A1A3374AAAE2B42 /* SVProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		29549DBA7354D88D76DE7615E41B3EF5 /* Pods-NoCheating-NoCheatingUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NoCheating-NoCheatingUITests.modulemap"; sourceTree = "<group>"; };
+		29C0692464C6F8E866FDD69368515664 /* Pods-NoCheating-NoCheatingUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NoCheating-NoCheatingUITests-frameworks.sh"; sourceTree = "<group>"; };
 		2A887B1C735EB72ACD15AF3797C807CA /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		2CC5931875A1AB6CE9DAC85674200F1A /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		2F8964E638F265A352D1189B3848B77E /* Pods-NoCheating-NoCheatingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NoCheating-NoCheatingUITests.release.xcconfig"; sourceTree = "<group>"; };
 		320C51F2DFE9784E0B526BE4FDC16AD1 /* FMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.debug.xcconfig; sourceTree = "<group>"; };
 		3216C0139A42C47815D0AB0BC4ABCB9E /* SVProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SVProgressHUD-Info.plist"; sourceTree = "<group>"; };
 		3304FDE333AD06AE3EA886D3A24DD232 /* FMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.release.xcconfig; sourceTree = "<group>"; };
@@ -187,88 +192,85 @@
 		38029CA6352F12ABC74C8CA672C1E748 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		38C4B93A82179BF95FC37E9EC1870F7E /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = Sources/Indicator.swift; sourceTree = "<group>"; };
 		3A568E4101DC6620F21F94E5EEAA69C2 /* KingfisherManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherManager.swift; path = Sources/KingfisherManager.swift; sourceTree = "<group>"; };
+		3B892601CC9627AE4238E4C6ACF5E10D /* Pods-NoCheatingTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NoCheatingTests-Info.plist"; sourceTree = "<group>"; };
 		3CE7B2A4422A1814A175A811E46E92C8 /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Sources/ImageCache.swift; sourceTree = "<group>"; };
 		3CFB898421CB21195EB163CD730270C6 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		3E0CF695BFCBD21052E3E8FE85993327 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
 		3F37D2BE66B2252238A789734728E379 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		4821642B8787B83DD1969E44DF0F6648 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		4860AAF75DCEEB91B7B983A6430510CA /* Pods-LalaMove-LalaMoveUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LalaMove-LalaMoveUITests-Info.plist"; sourceTree = "<group>"; };
 		4917B97210E65EDC68F35A68C0E9F4F7 /* Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kingfisher.swift; path = Sources/Kingfisher.swift; sourceTree = "<group>"; };
+		49B00A02A916A1BF7782FD1712542E92 /* Pods-NoCheatingTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NoCheatingTests-dummy.m"; sourceTree = "<group>"; };
 		49FCFA15E04B3A251F489347FF75F53C /* ImagePrefetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePrefetcher.swift; path = Sources/ImagePrefetcher.swift; sourceTree = "<group>"; };
-		4BDE1F142CF075334C5397F5E0A2D819 /* Pods-LalaMoveTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LalaMoveTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4F07C715132A42D4DFA2D7DF2F739779 /* ImageTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageTransition.swift; path = Sources/ImageTransition.swift; sourceTree = "<group>"; };
 		4FED951A7128547F24446C52DAF4E175 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		50558CA3F97C9EBD8D8379BBEF447AD8 /* Pods-NoCheatingTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NoCheatingTests.modulemap"; sourceTree = "<group>"; };
 		518B8FA05BCE64DF7B0DECE4E38FA921 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Filter.swift; sourceTree = "<group>"; };
 		525592B7C2D69E14BE7921875226ECE5 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		52C1C71D60623F06FA069495BDE760AC /* Pods-NoCheating-NoCheatingUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NoCheating-NoCheatingUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		55064275FFAB014CB7878795181C4DD6 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		562B79496DF7FD4DDB6BA53FC83BD04E /* Pods-NoCheating-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NoCheating-dummy.m"; sourceTree = "<group>"; };
 		5853B0EC86E770537550B3D26EB8FD67 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
 		58D20C458C50D7F2BFC380A577323CC4 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
 		5B48A672A23ECAC2CF7755A0327ABA7E /* Kingfisher-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Kingfisher-Info.plist"; sourceTree = "<group>"; };
 		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F2A95FB79FE15A88656471BFEE8D93D /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
-		5F9128C5D1C40B90BD5FD8607D90DF56 /* Pods-LalaMoveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LalaMoveTests.debug.xcconfig"; sourceTree = "<group>"; };
 		615A8C3BFD35DB1E35393A3C76A4A78F /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
-		626627E9EB9070BA7EA5C40818DE3BB9 /* Pods-LalaMove-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LalaMove-umbrella.h"; sourceTree = "<group>"; };
 		63E343A651A4A94140B2A02F9CA1AEF0 /* Kingfisher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.release.xcconfig; sourceTree = "<group>"; };
 		6517C2BC20304F9D0E866D3301F87463 /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
 		652F0A07CF6215FDD30126B1D3CFE2D2 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		68D204C06B79C7161932F69723A738F3 /* Pods-NoCheatingTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NoCheatingTests-umbrella.h"; sourceTree = "<group>"; };
+		692DDA6C0D3B94C381E6965AD877A76C /* Pods-NoCheating-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NoCheating-acknowledgements.plist"; sourceTree = "<group>"; };
 		6B6099282438F34749B0BE89D9675E90 /* Kingfisher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-umbrella.h"; sourceTree = "<group>"; };
 		6B97EA4EBA034AE2B68FA2A7E1575218 /* FMDB-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FMDB-Info.plist"; sourceTree = "<group>"; };
 		71E90C7684F3933380B3A3C64F2E772C /* Kingfisher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.debug.xcconfig; sourceTree = "<group>"; };
 		741099041B8D26DE5AB46A521D4C1A02 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		753AFAD9DA1685F0CDEAD485CC2B5C19 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
-		7551D964044C000A106E9C4F50C9D592 /* Pods-LalaMove-LalaMoveUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LalaMove-LalaMoveUITests.modulemap"; sourceTree = "<group>"; };
 		77721209B272353FFAB0A41B43F7F3D0 /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
 		790FFC1EF574F97D4D6DA32797AFAF36 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
 		7C21A3EB2A6F20363C14E7362BA095C3 /* String+MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+MD5.swift"; path = "Sources/String+MD5.swift"; sourceTree = "<group>"; };
 		7CAE9DEA144AE6450F8B243709E0D9AB /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
 		7CBB67B5214351C8C97064677682363E /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+Kingfisher.swift"; path = "Sources/ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
 		7E707CAEFAADCE1807A53DFF41455598 /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Image.swift; sourceTree = "<group>"; };
-		8146D744516243534539DCB056E52E54 /* Pods-LalaMoveTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LalaMoveTests-dummy.m"; sourceTree = "<group>"; };
+		818CFBEB2872A62A9529714A26FAE724 /* Pods-NoCheatingTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NoCheatingTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8229EF25EFFE3BE0AE3CDD7036BF6B49 /* Pods_NoCheating_NoCheatingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NoCheating_NoCheatingUITests.framework; path = "Pods-NoCheating-NoCheatingUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		844C656F2ECBA1DFB9D032D87FE5A3CC /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
-		84CBA61FC81FA0807A1BE4657B0E077D /* Pods-LalaMove-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LalaMove-acknowledgements.plist"; sourceTree = "<group>"; };
 		85FDFC7D227D5508C71F7DDEC68D4D89 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
 		88842C00496335D46AFCDEB05FA3C137 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		88976EFAB0428B4910FE8AC92DCACDA7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		88C13D0425B8E2FA5640FCE99AC6EBC0 /* Pods-NoCheatingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NoCheatingTests.release.xcconfig"; sourceTree = "<group>"; };
+		89523A41A8CBD6212969FF046804FBBD /* Pods-NoCheating-NoCheatingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NoCheating-NoCheatingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		895644EE865215CBBF00A046D43F2935 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		8BB06EB94BD344FC05208FE144A78E01 /* Pods-LalaMove-LalaMoveUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LalaMove-LalaMoveUITests-dummy.m"; sourceTree = "<group>"; };
 		8F0CFCBC672317F34A46B5C79F2DD4BA /* CacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheSerializer.swift; path = Sources/CacheSerializer.swift; sourceTree = "<group>"; };
 		908400AD7393EAB2C10AAD831FDB155C /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
 		9110EDD84A961665AECF2CFD214471E7 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
-		938B11E20806BA33A21066A97BCEDA02 /* Pods-LalaMoveTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LalaMoveTests.modulemap"; sourceTree = "<group>"; };
 		93F7D385D624B8A5FBD57B683C0B2222 /* ImageProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProcessor.swift; path = Sources/ImageProcessor.swift; sourceTree = "<group>"; };
 		967E358F1053E65EF0727FB2FFAAB4DE /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		98CBA918E4B1FD458EB668F7DC8B157D /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
 		9B3418E46EB1F927023BEADDAAE2135C /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		9C47AC8BD3DEA0CEFAC76DF790CA04F7 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		9CBAE46BCD2CC38FB1EE8748462CEBF9 /* Pods-LalaMoveTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LalaMoveTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A095F23EF3E36DDDB442166FCDAB695E /* Pods-NoCheating-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NoCheating-Info.plist"; sourceTree = "<group>"; };
 		A1AF0DCEE1D205A97C68DCC900C2BD69 /* FMDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-umbrella.h"; sourceTree = "<group>"; };
 		A280E553228E1835764EB264FCDC6F46 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
 		A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FMDB.framework; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B5BAA99A79DB4FF636539407843F18 /* SVProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
-		A775B9AB8D5058A47BE72EBD319473F4 /* Pods-LalaMove-LalaMoveUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LalaMove-LalaMoveUITests-frameworks.sh"; sourceTree = "<group>"; };
-		AE696E57DC514A159C10ACF14D51AB4A /* Pods-LalaMove-LalaMoveUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LalaMove-LalaMoveUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AF6B5E15DCF6072EB336C03B46828DF6 /* Pods-NoCheating-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NoCheating-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B0556715635F6FF5ACBAFFE53BD88F2C /* Pods-NoCheatingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NoCheatingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5C91AF8F0363598F5F73BA24183F60F /* Pods-NoCheating-NoCheatingUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NoCheating-NoCheatingUITests-dummy.m"; sourceTree = "<group>"; };
 		B7A76C4F104E3363619B4C7937420D0C /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
-		B90B23E81EE3EFE98D4DBC7258664888 /* Pods-LalaMove-LalaMoveUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LalaMove-LalaMoveUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B97AF346A7CBBD5607758A699CE3E2BA /* Placeholder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Placeholder.swift; path = Sources/Placeholder.swift; sourceTree = "<group>"; };
-		BA2AB18849C8BD5874C477F322B725E8 /* Pods_LalaMove_LalaMoveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LalaMove_LalaMoveUITests.framework; path = "Pods-LalaMove-LalaMoveUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAEB395E017B214FE7F9A9F40F8FF384 /* Pods-NoCheating-NoCheatingUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NoCheating-NoCheatingUITests-Info.plist"; sourceTree = "<group>"; };
 		BCC22C3CCB2FF6C600934EC0B6416612 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
-		BDC58C26B158E8DA8CE67F19BAF20D1F /* Pods-LalaMove-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LalaMove-frameworks.sh"; sourceTree = "<group>"; };
+		BF3256214B3DF1CF8320B7BCAF607EE8 /* Pods-NoCheating-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NoCheating-frameworks.sh"; sourceTree = "<group>"; };
 		C1991544AC5E9EC7ACEAECDC63C46710 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
-		C2939DBB5A27821201DD93E4DEB5416F /* Pods-LalaMove-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LalaMove-Info.plist"; sourceTree = "<group>"; };
 		C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kingfisher.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8C4FAA14DF4A3223034C0DFFE7AE774 /* Pods-LalaMove.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LalaMove.release.xcconfig"; sourceTree = "<group>"; };
 		C99A38468E39F3C637713956D91CEE1B /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
 		D02E5A2DC84EE77A36380F561125FCBA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D388E5482B51274729C884AB41B3458D /* Pods-LalaMoveTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LalaMoveTests-umbrella.h"; sourceTree = "<group>"; };
 		D43315EB6A486BFCDC36FE8F5B4857D3 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		D440FB3156DD2BAC230979EC025B57FD /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
 		D73A35577CB3F259E5B9817D8C8CCB0A /* AnimatedImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedImageView.swift; path = Sources/AnimatedImageView.swift; sourceTree = "<group>"; };
 		D77FA56D9DF951DE058E02B470CE7E45 /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Kingfisher.swift"; path = "Sources/UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
-		D7CA6ACAA1CD7BAAA7629E6E624FB1BB /* Pods_LalaMoveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LalaMoveTests.framework; path = "Pods-LalaMoveTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D98E5A9CDBB13566BC10A21C5FC31394 /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherOptionsInfo.swift; path = Sources/KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
-		E00D982A6ABA24E148FD534048853D7B /* Pods-LalaMove-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LalaMove-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E313B95663287A8610C7BE509B8A8090 /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
 		E6B126864B7DC3959E90B5A0EBA20546 /* Kingfisher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Kingfisher.modulemap; sourceTree = "<group>"; };
 		E7A4436FD639E45E2A8FAF0C044AADE9 /* ImageModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageModifier.swift; path = Sources/ImageModifier.swift; sourceTree = "<group>"; };
@@ -278,14 +280,12 @@
 		E9789F460521CDF8CE3841494BEF029F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D7D555A26C7AC3CF51EC7E3D9297F2 /* Kingfisher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kingfisher-dummy.m"; sourceTree = "<group>"; };
-		F3D035F7D101F806E5D963C96C929783 /* Pods_LalaMove.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LalaMove.framework; path = "Pods-LalaMove.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F631BA8B83353A5037DFF094CE7F5208 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		F90F12A3E45D74D3F2287D32355265A6 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
-		F91538139B81CA9495D3A416FEAA21B5 /* Pods-LalaMoveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LalaMoveTests.release.xcconfig"; sourceTree = "<group>"; };
-		F91CE0F2D49C96A168E50A5BB31ED0D7 /* Pods-LalaMove-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LalaMove-dummy.m"; sourceTree = "<group>"; };
 		FAC4262E2BF9A846D25E257105DB4390 /* Kingfisher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-prefix.pch"; sourceTree = "<group>"; };
 		FB176EAC6187028BEE417DAF5AEA1A3E /* Kingfisher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kingfisher.h; path = Sources/Kingfisher.h; sourceTree = "<group>"; };
 		FB7DAFEEB213F84C18BBC043F0402524 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		FB7DFB52A00E9F351703BFBDD3AB5EC3 /* Pods-NoCheating-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NoCheating-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -297,19 +297,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		37C2F620538CCF7D09F3C6BFDAF2E8A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F572B9C0A51B9AA3993F1E8B8F0062 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		41E857D338F96D89E73F6E28241F0A8B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				634E11CA470DB7ADB8F054E30E042B25 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		53ED892EA71C42FABA7549571A062350 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1D18641E103853416E4A611CB054E3BE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +322,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9FAFDDB84B75AEE67F537E0B9025A8BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F523D33BBE6190D0957AE6057789041 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B3D1D1191F24E31CEEA04BDB3FB4C0F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -331,19 +339,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3AA55D43186D43EA5D602CB0E725928 /* Frameworks */ = {
+		DD20D0E5BC8E60C6182FF9E3599869CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44C7945BACC3C358C14840643B12F3C7 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ECD5F35941F55562007CEC7D6192201E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				92939D2A37312ACB71B5A04BD044A3A7 /* Foundation.framework in Frameworks */,
+				6265C6EC95A21AC9D7A4C5D0FD258991 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +371,39 @@
 				E48E940CAD671FDBCFFA715376831F44 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0956F10692CBEBDAFC5E36B6CDF7735D /* Pods-NoCheating */ = {
+			isa = PBXGroup;
+			children = (
+				1B46C08D76ED525B942C81B80EA639D2 /* Pods-NoCheating.modulemap */,
+				AF6B5E15DCF6072EB336C03B46828DF6 /* Pods-NoCheating-acknowledgements.markdown */,
+				692DDA6C0D3B94C381E6965AD877A76C /* Pods-NoCheating-acknowledgements.plist */,
+				562B79496DF7FD4DDB6BA53FC83BD04E /* Pods-NoCheating-dummy.m */,
+				BF3256214B3DF1CF8320B7BCAF607EE8 /* Pods-NoCheating-frameworks.sh */,
+				A095F23EF3E36DDDB442166FCDAB695E /* Pods-NoCheating-Info.plist */,
+				FB7DFB52A00E9F351703BFBDD3AB5EC3 /* Pods-NoCheating-umbrella.h */,
+				11CB4519D152040C578C20107B14B8C7 /* Pods-NoCheating.debug.xcconfig */,
+				0AA00CADA9D0697FEAC62E0E70D7598C /* Pods-NoCheating.release.xcconfig */,
+			);
+			name = "Pods-NoCheating";
+			path = "Target Support Files/Pods-NoCheating";
+			sourceTree = "<group>";
+		};
+		170079E8AE666231FA4D63EAF1D7135D /* Pods-NoCheatingTests */ = {
+			isa = PBXGroup;
+			children = (
+				50558CA3F97C9EBD8D8379BBEF447AD8 /* Pods-NoCheatingTests.modulemap */,
+				818CFBEB2872A62A9529714A26FAE724 /* Pods-NoCheatingTests-acknowledgements.markdown */,
+				03407302D3FC6853D47F427747E491D6 /* Pods-NoCheatingTests-acknowledgements.plist */,
+				49B00A02A916A1BF7782FD1712542E92 /* Pods-NoCheatingTests-dummy.m */,
+				3B892601CC9627AE4238E4C6ACF5E10D /* Pods-NoCheatingTests-Info.plist */,
+				68D204C06B79C7161932F69723A738F3 /* Pods-NoCheatingTests-umbrella.h */,
+				B0556715635F6FF5ACBAFFE53BD88F2C /* Pods-NoCheatingTests.debug.xcconfig */,
+				88C13D0425B8E2FA5640FCE99AC6EBC0 /* Pods-NoCheatingTests.release.xcconfig */,
+			);
+			name = "Pods-NoCheatingTests";
+			path = "Target Support Files/Pods-NoCheatingTests";
 			sourceTree = "<group>";
 		};
 		1D64558ECEBB6B661D7A385AA45D4ED5 /* Alamofire */ = {
@@ -409,16 +442,6 @@
 			path = FMDB;
 			sourceTree = "<group>";
 		};
-		246F89C534538A2F7BA3AB2C6D633ECC /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4DFC2AB9A6CA71DE7D1AF9FD3801F6B5 /* Pods-LalaMove */,
-				EB3BC53FB1BE2F70C5EC25758E53D173 /* Pods-LalaMove-LalaMoveUITests */,
-				507BB2A0A1218CE4D4EC2B4990C31EE9 /* Pods-LalaMoveTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		2F7FBAADB519964C2E2122508B067508 /* Kingfisher */ = {
 			isa = PBXGroup;
 			children = (
@@ -452,37 +475,35 @@
 			path = Kingfisher;
 			sourceTree = "<group>";
 		};
-		4DFC2AB9A6CA71DE7D1AF9FD3801F6B5 /* Pods-LalaMove */ = {
+		4037877BE9F624E52F0461072B5D56BF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				023A2051F74B50F28478DF75040EB3E4 /* Pods-LalaMove.modulemap */,
-				E00D982A6ABA24E148FD534048853D7B /* Pods-LalaMove-acknowledgements.markdown */,
-				84CBA61FC81FA0807A1BE4657B0E077D /* Pods-LalaMove-acknowledgements.plist */,
-				F91CE0F2D49C96A168E50A5BB31ED0D7 /* Pods-LalaMove-dummy.m */,
-				BDC58C26B158E8DA8CE67F19BAF20D1F /* Pods-LalaMove-frameworks.sh */,
-				C2939DBB5A27821201DD93E4DEB5416F /* Pods-LalaMove-Info.plist */,
-				626627E9EB9070BA7EA5C40818DE3BB9 /* Pods-LalaMove-umbrella.h */,
-				12810728D642C8926D022C7F395DDD60 /* Pods-LalaMove.debug.xcconfig */,
-				C8C4FAA14DF4A3223034C0DFFE7AE774 /* Pods-LalaMove.release.xcconfig */,
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
+				A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */,
+				C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher.framework */,
+				1EAE516D1D64B5884BE103CC2B278064 /* Pods_NoCheating.framework */,
+				8229EF25EFFE3BE0AE3CDD7036BF6B49 /* Pods_NoCheating_NoCheatingUITests.framework */,
+				130AC961E964AA12119362C716AB28D2 /* Pods_NoCheatingTests.framework */,
+				E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */,
 			);
-			name = "Pods-LalaMove";
-			path = "Target Support Files/Pods-LalaMove";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		507BB2A0A1218CE4D4EC2B4990C31EE9 /* Pods-LalaMoveTests */ = {
+		5571B7C6FC0593065934E0FDD1620A76 /* Pods-NoCheating-NoCheatingUITests */ = {
 			isa = PBXGroup;
 			children = (
-				938B11E20806BA33A21066A97BCEDA02 /* Pods-LalaMoveTests.modulemap */,
-				9CBAE46BCD2CC38FB1EE8748462CEBF9 /* Pods-LalaMoveTests-acknowledgements.markdown */,
-				4BDE1F142CF075334C5397F5E0A2D819 /* Pods-LalaMoveTests-acknowledgements.plist */,
-				8146D744516243534539DCB056E52E54 /* Pods-LalaMoveTests-dummy.m */,
-				16BEDAAF59CA1183E4D2BD8A03D29601 /* Pods-LalaMoveTests-Info.plist */,
-				D388E5482B51274729C884AB41B3458D /* Pods-LalaMoveTests-umbrella.h */,
-				5F9128C5D1C40B90BD5FD8607D90DF56 /* Pods-LalaMoveTests.debug.xcconfig */,
-				F91538139B81CA9495D3A416FEAA21B5 /* Pods-LalaMoveTests.release.xcconfig */,
+				29549DBA7354D88D76DE7615E41B3EF5 /* Pods-NoCheating-NoCheatingUITests.modulemap */,
+				09244EC42D5248380EA48F9F48FD0593 /* Pods-NoCheating-NoCheatingUITests-acknowledgements.markdown */,
+				52C1C71D60623F06FA069495BDE760AC /* Pods-NoCheating-NoCheatingUITests-acknowledgements.plist */,
+				B5C91AF8F0363598F5F73BA24183F60F /* Pods-NoCheating-NoCheatingUITests-dummy.m */,
+				29C0692464C6F8E866FDD69368515664 /* Pods-NoCheating-NoCheatingUITests-frameworks.sh */,
+				BAEB395E017B214FE7F9A9F40F8FF384 /* Pods-NoCheating-NoCheatingUITests-Info.plist */,
+				2883BF2283C98377D50D92EE641652F2 /* Pods-NoCheating-NoCheatingUITests-umbrella.h */,
+				89523A41A8CBD6212969FF046804FBBD /* Pods-NoCheating-NoCheatingUITests.debug.xcconfig */,
+				2F8964E638F265A352D1189B3848B77E /* Pods-NoCheating-NoCheatingUITests.release.xcconfig */,
 			);
-			name = "Pods-LalaMoveTests";
-			path = "Target Support Files/Pods-LalaMoveTests";
+			name = "Pods-NoCheating-NoCheatingUITests";
+			path = "Target Support Files/Pods-NoCheating-NoCheatingUITests";
 			sourceTree = "<group>";
 		};
 		642F3F0A31A5E05A6A688130CDFB8455 /* Support Files */ = {
@@ -541,6 +562,16 @@
 			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
+		AAF9AC753EBCBEEEFEAC4F66D734AE28 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0956F10692CBEBDAFC5E36B6CDF7735D /* Pods-NoCheating */,
+				5571B7C6FC0593065934E0FDD1620A76 /* Pods-NoCheating-NoCheatingUITests */,
+				170079E8AE666231FA4D63EAF1D7135D /* Pods-NoCheatingTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		AED4F17F195AD859936BF6C9FFE8055E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -558,23 +589,9 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
 				AED4F17F195AD859936BF6C9FFE8055E /* Pods */,
-				D7DEE11D756FA5FCE7B1BCE52E1FECB2 /* Products */,
-				246F89C534538A2F7BA3AB2C6D633ECC /* Targets Support Files */,
+				4037877BE9F624E52F0461072B5D56BF /* Products */,
+				AAF9AC753EBCBEEEFEAC4F66D734AE28 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D7DEE11D756FA5FCE7B1BCE52E1FECB2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
-				A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */,
-				C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher.framework */,
-				F3D035F7D101F806E5D963C96C929783 /* Pods_LalaMove.framework */,
-				BA2AB18849C8BD5874C477F322B725E8 /* Pods_LalaMove_LalaMoveUITests.framework */,
-				D7CA6ACAA1CD7BAAA7629E6E624FB1BB /* Pods_LalaMoveTests.framework */,
-				E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		E48E940CAD671FDBCFFA715376831F44 /* iOS */ = {
@@ -600,23 +617,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Kingfisher";
-			sourceTree = "<group>";
-		};
-		EB3BC53FB1BE2F70C5EC25758E53D173 /* Pods-LalaMove-LalaMoveUITests */ = {
-			isa = PBXGroup;
-			children = (
-				7551D964044C000A106E9C4F50C9D592 /* Pods-LalaMove-LalaMoveUITests.modulemap */,
-				AE696E57DC514A159C10ACF14D51AB4A /* Pods-LalaMove-LalaMoveUITests-acknowledgements.markdown */,
-				B90B23E81EE3EFE98D4DBC7258664888 /* Pods-LalaMove-LalaMoveUITests-acknowledgements.plist */,
-				8BB06EB94BD344FC05208FE144A78E01 /* Pods-LalaMove-LalaMoveUITests-dummy.m */,
-				A775B9AB8D5058A47BE72EBD319473F4 /* Pods-LalaMove-LalaMoveUITests-frameworks.sh */,
-				4860AAF75DCEEB91B7B983A6430510CA /* Pods-LalaMove-LalaMoveUITests-Info.plist */,
-				048A7D46474C5260E52EC75ECF4BDC77 /* Pods-LalaMove-LalaMoveUITests-umbrella.h */,
-				0F3DA7890FAF9C021445A99C50ADB473 /* Pods-LalaMove-LalaMoveUITests.debug.xcconfig */,
-				003631455C64D84496F9EFC140578E4D /* Pods-LalaMove-LalaMoveUITests.release.xcconfig */,
-			);
-			name = "Pods-LalaMove-LalaMoveUITests";
-			path = "Target Support Files/Pods-LalaMove-LalaMoveUITests";
 			sourceTree = "<group>";
 		};
 		F7A9FE3362BF903C1C58153B0A67B8D0 /* standard */ = {
@@ -648,6 +648,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		60B3D5F1DD3B556FCEA4F51BA6B62661 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35B8A1362C390D283BECAC282971DF5E /* Pods-NoCheating-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7C044C67F11489EFA3459B8399E7061C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -669,11 +677,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6C8964B694D6DDB7E6EA7B11FC31C2E /* Headers */ = {
+		B417B01A9226B77CBBFC3A8CE3DE858A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1052576EA43410E3DEC6B290AD7717A /* Pods-LalaMove-umbrella.h in Headers */,
+				734AF7632C500797C66D93674A81E177 /* Pods-NoCheatingTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46FE18315089426AF990A02B7ED2EE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F4BA98D68DE7A0F0D9CF1338F79FD24 /* Pods-NoCheating-NoCheatingUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -691,25 +707,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9DEE06EEDEC1BFBB7D55C1470893BA6 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA59F36679E3C4259FDDC93FFEAC16B8 /* Pods-LalaMove-LalaMoveUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FFDF5AC08F7C7C6739E62E6B1DB93CA1 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5ADA1E3485F0A771C7B26BE392CBA4BE /* Pods-LalaMoveTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		171CF316A343C12D3EFC918274B49421 /* Pods-NoCheating */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E7D2AE7EF9A7934439B92E9B0C3A7BA /* Build configuration list for PBXNativeTarget "Pods-NoCheating" */;
+			buildPhases = (
+				60B3D5F1DD3B556FCEA4F51BA6B62661 /* Headers */,
+				E3AEBFE4078639C17A02B11D9E81DD6F /* Sources */,
+				9FAFDDB84B75AEE67F537E0B9025A8BB /* Frameworks */,
+				EC60216F76AEBE65E9578B623FCA6C5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B8EAC947252802F59FF6EF80FB70487 /* PBXTargetDependency */,
+				C8E412E2301551D3F78D8C5BA2B116F4 /* PBXTargetDependency */,
+				D064EFAB38A2944A4019C048E2AD5BC6 /* PBXTargetDependency */,
+				2C777709667824142D5292DD1C8D558B /* PBXTargetDependency */,
+			);
+			name = "Pods-NoCheating";
+			productName = "Pods-NoCheating";
+			productReference = 1EAE516D1D64B5884BE103CC2B278064 /* Pods_NoCheating.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E76C288BA44757915CF3700D8A326EB7 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
@@ -728,23 +750,26 @@
 			productReference = E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		369C90099B19CFF26D985E5F677A1A42 /* Pods-LalaMoveTests */ = {
+		2BE13CD244817111B5FB81F03AE142B0 /* Pods-NoCheating-NoCheatingUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ABBC07066136EC6BB8C0C52B9F5C8190 /* Build configuration list for PBXNativeTarget "Pods-LalaMoveTests" */;
+			buildConfigurationList = D04C19E8574C9E1352501F3044078AD0 /* Build configuration list for PBXNativeTarget "Pods-NoCheating-NoCheatingUITests" */;
 			buildPhases = (
-				FFDF5AC08F7C7C6739E62E6B1DB93CA1 /* Headers */,
-				1AB836B32C7F7674FBB1B9426B5CDD5D /* Sources */,
-				53ED892EA71C42FABA7549571A062350 /* Frameworks */,
-				1409BD1EA8ACBAFA618B0B4935865C7F /* Resources */,
+				B46FE18315089426AF990A02B7ED2EE9 /* Headers */,
+				96302E8F30309095BFB7F106B78FD733 /* Sources */,
+				DD20D0E5BC8E60C6182FF9E3599869CB /* Frameworks */,
+				08D96B5A131C13183EA194373C0F7D35 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A8D3B80297B5E25FFD1318B3E2037898 /* PBXTargetDependency */,
+				DA0A834526365A3999B77CE4551C3DF7 /* PBXTargetDependency */,
+				5B80D5E14C0927A902A622077ED70D28 /* PBXTargetDependency */,
+				121B27EC95E9BB4CFD8F1083737B68A0 /* PBXTargetDependency */,
+				9257DD9107082A680BC8A0A3E65B966E /* PBXTargetDependency */,
 			);
-			name = "Pods-LalaMoveTests";
-			productName = "Pods-LalaMoveTests";
-			productReference = D7CA6ACAA1CD7BAAA7629E6E624FB1BB /* Pods_LalaMoveTests.framework */;
+			name = "Pods-NoCheating-NoCheatingUITests";
+			productName = "Pods-NoCheating-NoCheatingUITests";
+			productReference = 8229EF25EFFE3BE0AE3CDD7036BF6B49 /* Pods_NoCheating_NoCheatingUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8592E0E389D40AC17881400ADC67ABC0 /* FMDB */ = {
@@ -765,48 +790,23 @@
 			productReference = A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		953867B2E8423E2BE017431B742236F6 /* Pods-LalaMove */ = {
+		B5AE202441A61F33AB6ED12E297763C2 /* Pods-NoCheatingTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 257174AF0829CF363309B7886F72276E /* Build configuration list for PBXNativeTarget "Pods-LalaMove" */;
+			buildConfigurationList = 4ECCC068BABDBF1BFD6829531A574B59 /* Build configuration list for PBXNativeTarget "Pods-NoCheatingTests" */;
 			buildPhases = (
-				C6C8964B694D6DDB7E6EA7B11FC31C2E /* Headers */,
-				8D29D7D756EB5BD3A821F93B7B9CBA8A /* Sources */,
-				E3AA55D43186D43EA5D602CB0E725928 /* Frameworks */,
-				8AD13F1E5C93CEAA9211FF546C8D369A /* Resources */,
+				B417B01A9226B77CBBFC3A8CE3DE858A /* Headers */,
+				BF05854E151B2C917795B3EF1F02EE82 /* Sources */,
+				37C2F620538CCF7D09F3C6BFDAF2E8A3 /* Frameworks */,
+				856CCADF68755BB4BA45B73DB59A4CF3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C93854625373249212B4160AE371BF15 /* PBXTargetDependency */,
-				CD350ACA2E9C0A7D5FCBF89656910F0C /* PBXTargetDependency */,
-				F5C729A1DBEA71FB8A8AE2A7DD0270C5 /* PBXTargetDependency */,
-				2811F993E57ECA98CD8EB19E56E1BCCE /* PBXTargetDependency */,
+				028AD529811EEAD5D97CEF26D872BF82 /* PBXTargetDependency */,
 			);
-			name = "Pods-LalaMove";
-			productName = "Pods-LalaMove";
-			productReference = F3D035F7D101F806E5D963C96C929783 /* Pods_LalaMove.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		CD9648DE94ADC979BB8E0E7F338B33C1 /* Pods-LalaMove-LalaMoveUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 42202E3467BCD1A61E1578B84E39077F /* Build configuration list for PBXNativeTarget "Pods-LalaMove-LalaMoveUITests" */;
-			buildPhases = (
-				E9DEE06EEDEC1BFBB7D55C1470893BA6 /* Headers */,
-				080413C98698CFCB89DA1D36F20E7B6A /* Sources */,
-				ECD5F35941F55562007CEC7D6192201E /* Frameworks */,
-				1D20EAA85E40D2E5D2DCD23DF81CA2D7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F6F9B8EFDB6CCCBD790EEA3AB1CE77FA /* PBXTargetDependency */,
-				B94F06A18A2DD9C75D770A7F07ECF790 /* PBXTargetDependency */,
-				C6E2B45EACD9D74F9E402679498A5E9E /* PBXTargetDependency */,
-				F0F8854EDCB0F3B363996D041F331A31 /* PBXTargetDependency */,
-			);
-			name = "Pods-LalaMove-LalaMoveUITests";
-			productName = "Pods-LalaMove-LalaMoveUITests";
-			productReference = BA2AB18849C8BD5874C477F322B725E8 /* Pods_LalaMove_LalaMoveUITests.framework */;
+			name = "Pods-NoCheatingTests";
+			productName = "Pods-NoCheatingTests";
+			productReference = 130AC961E964AA12119362C716AB28D2 /* Pods_NoCheatingTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E8022D22FAA6690B5E1C379C1BCE1491 /* Kingfisher */ = {
@@ -863,30 +863,23 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = D7DEE11D756FA5FCE7B1BCE52E1FECB2 /* Products */;
+			productRefGroup = 4037877BE9F624E52F0461072B5D56BF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
 				8592E0E389D40AC17881400ADC67ABC0 /* FMDB */,
 				E8022D22FAA6690B5E1C379C1BCE1491 /* Kingfisher */,
-				953867B2E8423E2BE017431B742236F6 /* Pods-LalaMove */,
-				CD9648DE94ADC979BB8E0E7F338B33C1 /* Pods-LalaMove-LalaMoveUITests */,
-				369C90099B19CFF26D985E5F677A1A42 /* Pods-LalaMoveTests */,
+				171CF316A343C12D3EFC918274B49421 /* Pods-NoCheating */,
+				2BE13CD244817111B5FB81F03AE142B0 /* Pods-NoCheating-NoCheatingUITests */,
+				B5AE202441A61F33AB6ED12E297763C2 /* Pods-NoCheatingTests */,
 				1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1409BD1EA8ACBAFA618B0B4935865C7F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1D20EAA85E40D2E5D2DCD23DF81CA2D7 /* Resources */ = {
+		08D96B5A131C13183EA194373C0F7D35 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -915,7 +908,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8AD13F1E5C93CEAA9211FF546C8D369A /* Resources */ = {
+		856CCADF68755BB4BA45B73DB59A4CF3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -929,25 +922,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EC60216F76AEBE65E9578B623FCA6C5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		080413C98698CFCB89DA1D36F20E7B6A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C899CAC41BCA4FC399FBDBA1FD93E4FC /* Pods-LalaMove-LalaMoveUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1AB836B32C7F7674FBB1B9426B5CDD5D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FFC2A4F6E749C5ED602096E38B698440 /* Pods-LalaMoveTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2DDFD9AC10F181CD7130BDF5F9E0502B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1017,11 +1001,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D29D7D756EB5BD3A821F93B7B9CBA8A /* Sources */ = {
+		96302E8F30309095BFB7F106B78FD733 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56C43A024159252062A7D2614766989F /* Pods-LalaMove-dummy.m in Sources */,
+				E9194ACA9A5565786555FDC7869459EE /* Pods-NoCheating-NoCheatingUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF05854E151B2C917795B3EF1F02EE82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0C02C30C09D707F4E4A643CE6F7504 /* Pods-NoCheatingTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1037,62 +1029,70 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E3AEBFE4078639C17A02B11D9E81DD6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14FF71D5991B99C3678FBF72DC8693E4 /* Pods-NoCheating-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2811F993E57ECA98CD8EB19E56E1BCCE /* PBXTargetDependency */ = {
+		028AD529811EEAD5D97CEF26D872BF82 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SVProgressHUD;
-			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
-			targetProxy = 40A660F5812308E36A7296A70F204E14 /* PBXContainerItemProxy */;
+			name = "Pods-NoCheating";
+			target = 171CF316A343C12D3EFC918274B49421 /* Pods-NoCheating */;
+			targetProxy = 961D6428EA79CB3D60056A3CA867C266 /* PBXContainerItemProxy */;
 		};
-		A8D3B80297B5E25FFD1318B3E2037898 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-LalaMove";
-			target = 953867B2E8423E2BE017431B742236F6 /* Pods-LalaMove */;
-			targetProxy = 04846AB744D79F2F32F80E2B5E5C66F2 /* PBXContainerItemProxy */;
-		};
-		B94F06A18A2DD9C75D770A7F07ECF790 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FMDB;
-			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
-			targetProxy = E54318A0E1B945F59B27A9CF94A79854 /* PBXContainerItemProxy */;
-		};
-		C6E2B45EACD9D74F9E402679498A5E9E /* PBXTargetDependency */ = {
+		121B27EC95E9BB4CFD8F1083737B68A0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Kingfisher;
 			target = E8022D22FAA6690B5E1C379C1BCE1491 /* Kingfisher */;
-			targetProxy = B2D8BDBC100408DBB32E3E1C59D99A64 /* PBXContainerItemProxy */;
+			targetProxy = 7BA114C259EB3AE119874EAA954CFF22 /* PBXContainerItemProxy */;
 		};
-		C93854625373249212B4160AE371BF15 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = 8EA70C725BA0EBA2A9B32EE39A30870F /* PBXContainerItemProxy */;
-		};
-		CD350ACA2E9C0A7D5FCBF89656910F0C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FMDB;
-			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
-			targetProxy = 0258A7B050E45CA21648EED94BEC2770 /* PBXContainerItemProxy */;
-		};
-		F0F8854EDCB0F3B363996D041F331A31 /* PBXTargetDependency */ = {
+		2C777709667824142D5292DD1C8D558B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SVProgressHUD;
 			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
-			targetProxy = 3DFBD6C3C319A85C37C57EF3B71722F2 /* PBXContainerItemProxy */;
+			targetProxy = 7FA32E85B916C2B0FFF2E9A3D68378B5 /* PBXContainerItemProxy */;
 		};
-		F5C729A1DBEA71FB8A8AE2A7DD0270C5 /* PBXTargetDependency */ = {
+		5B80D5E14C0927A902A622077ED70D28 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Kingfisher;
-			target = E8022D22FAA6690B5E1C379C1BCE1491 /* Kingfisher */;
-			targetProxy = 8189411E4568DC6B7BAB14D223FFBA4D /* PBXContainerItemProxy */;
+			name = FMDB;
+			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
+			targetProxy = 4E58DE0CD5155E7B2FA27D629BDC6B11 /* PBXContainerItemProxy */;
 		};
-		F6F9B8EFDB6CCCBD790EEA3AB1CE77FA /* PBXTargetDependency */ = {
+		9257DD9107082A680BC8A0A3E65B966E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
+			targetProxy = 8D5523ED3B16893376379A0B34ACE01D /* PBXContainerItemProxy */;
+		};
+		9B8EAC947252802F59FF6EF80FB70487 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = 262EB6A01FDDF43CC405D374E328764C /* PBXContainerItemProxy */;
+			targetProxy = E15B46FCC10CF5A15376928AFB3195FE /* PBXContainerItemProxy */;
+		};
+		C8E412E2301551D3F78D8C5BA2B116F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 8592E0E389D40AC17881400ADC67ABC0 /* FMDB */;
+			targetProxy = E14E5E4E0B036B3FB3167A1CF36D5EF9 /* PBXContainerItemProxy */;
+		};
+		D064EFAB38A2944A4019C048E2AD5BC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kingfisher;
+			target = E8022D22FAA6690B5E1C379C1BCE1491 /* Kingfisher */;
+			targetProxy = F8B1453A2CD1BD5B009AF5F5F5454A1B /* PBXContainerItemProxy */;
+		};
+		DA0A834526365A3999B77CE4551C3DF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 769C810E126C7051632899900475865A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1203,43 +1203,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		384D8AF1D4624F4D01ADEDDF977E6495 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12810728D642C8926D022C7F395DDD60 /* Pods-LalaMove.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LalaMove/Pods-LalaMove-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LalaMove/Pods-LalaMove.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		3E34629840C593E821BBF4796F36D7BF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1377,9 +1340,9 @@
 			};
 			name = Debug;
 		};
-		4F2B630F45E883DF12A1D3244B4A109E /* Debug */ = {
+		883DD4846C9CAE648182830532A29EF8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F9128C5D1C40B90BD5FD8607D90DF56 /* Pods-LalaMoveTests.debug.xcconfig */;
+			baseConfigurationReference = 2F8964E638F265A352D1189B3848B77E /* Pods-NoCheating-NoCheatingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1391,7 +1354,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LalaMoveTests/Pods-LalaMoveTests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-NoCheating-NoCheatingUITests/Pods-NoCheating-NoCheatingUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1400,44 +1363,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LalaMoveTests/Pods-LalaMoveTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5ECE0707323B76F3AE9C6D1036F8ADAE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8C4FAA14DF4A3223034C0DFFE7AE774 /* Pods-LalaMove.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LalaMove/Pods-LalaMove-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LalaMove/Pods-LalaMove.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-NoCheating-NoCheatingUITests/Pods-NoCheating-NoCheatingUITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1451,6 +1377,155 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		885573C09B90CB93F0A7367615FA512A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89523A41A8CBD6212969FF046804FBBD /* Pods-NoCheating-NoCheatingUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NoCheating-NoCheatingUITests/Pods-NoCheating-NoCheatingUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NoCheating-NoCheatingUITests/Pods-NoCheating-NoCheatingUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8E27EE1B239706C56E68DDE6769CA772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88C13D0425B8E2FA5640FCE99AC6EBC0 /* Pods-NoCheatingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NoCheatingTests/Pods-NoCheatingTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NoCheatingTests/Pods-NoCheatingTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F37F66A653B4E2E3583BC784A18452C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0556715635F6FF5ACBAFFE53BD88F2C /* Pods-NoCheatingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NoCheatingTests/Pods-NoCheatingTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NoCheatingTests/Pods-NoCheatingTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90DF715370DE216821C39EDAE44587A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11CB4519D152040C578C20107B14B8C7 /* Pods-NoCheating.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NoCheating/Pods-NoCheating-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NoCheating/Pods-NoCheating.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		91BEA3991C3827B524003CCEBBE9FC13 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1486,44 +1561,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		9ED6504343C63CB038D23602FA8D7419 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 003631455C64D84496F9EFC140578E4D /* Pods-LalaMove-LalaMoveUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LalaMove-LalaMoveUITests/Pods-LalaMove-LalaMoveUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LalaMove-LalaMoveUITests/Pods-LalaMove-LalaMoveUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		A40FB7C4B9460AE765A736AB575EEB32 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1621,9 +1658,9 @@
 			};
 			name = Debug;
 		};
-		CF5E599252E321D685D41622F64E2BC0 /* Release */ = {
+		BF88B80112CDBB101A26AC932A1DE05F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F91538139B81CA9495D3A416FEAA21B5 /* Pods-LalaMoveTests.release.xcconfig */;
+			baseConfigurationReference = 0AA00CADA9D0697FEAC62E0E70D7598C /* Pods-NoCheating.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1635,7 +1672,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LalaMoveTests/Pods-LalaMoveTests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-NoCheating/Pods-NoCheating-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1644,7 +1681,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LalaMoveTests/Pods-LalaMoveTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-NoCheating/Pods-NoCheating.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1695,69 +1732,32 @@
 			};
 			name = Release;
 		};
-		E05F818B1EF51305038A399F079A17F9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F3DA7890FAF9C021445A99C50ADB473 /* Pods-LalaMove-LalaMoveUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LalaMove-LalaMoveUITests/Pods-LalaMove-LalaMoveUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LalaMove-LalaMoveUITests/Pods-LalaMove-LalaMoveUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		257174AF0829CF363309B7886F72276E /* Build configuration list for PBXNativeTarget "Pods-LalaMove" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				384D8AF1D4624F4D01ADEDDF977E6495 /* Debug */,
-				5ECE0707323B76F3AE9C6D1036F8ADAE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		42202E3467BCD1A61E1578B84E39077F /* Build configuration list for PBXNativeTarget "Pods-LalaMove-LalaMoveUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E05F818B1EF51305038A399F079A17F9 /* Debug */,
-				9ED6504343C63CB038D23602FA8D7419 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4EBC741460BC710C963D24CAAB3BC925 /* Debug */,
 				A40FB7C4B9460AE765A736AB575EEB32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E7D2AE7EF9A7934439B92E9B0C3A7BA /* Build configuration list for PBXNativeTarget "Pods-NoCheating" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90DF715370DE216821C39EDAE44587A9 /* Debug */,
+				BF88B80112CDBB101A26AC932A1DE05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ECCC068BABDBF1BFD6829531A574B59 /* Build configuration list for PBXNativeTarget "Pods-NoCheatingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F37F66A653B4E2E3583BC784A18452C /* Debug */,
+				8E27EE1B239706C56E68DDE6769CA772 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1771,11 +1771,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ABBC07066136EC6BB8C0C52B9F5C8190 /* Build configuration list for PBXNativeTarget "Pods-LalaMoveTests" */ = {
+		D04C19E8574C9E1352501F3044078AD0 /* Build configuration list for PBXNativeTarget "Pods-NoCheating-NoCheatingUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4F2B630F45E883DF12A1D3244B4A109E /* Debug */,
-				CF5E599252E321D685D41622F64E2BC0 /* Release */,
+				885573C09B90CB93F0A7367615FA512A /* Debug */,
+				883DD4846C9CAE648182830532A29EF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

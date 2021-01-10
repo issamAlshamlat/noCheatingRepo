@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_LalaMoveTestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_LalaMoveTestsVersionString[];
+FOUNDATION_EXPORT double Pods_NoCheating_NoCheatingUITestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_NoCheating_NoCheatingUITestsVersionString[];
 

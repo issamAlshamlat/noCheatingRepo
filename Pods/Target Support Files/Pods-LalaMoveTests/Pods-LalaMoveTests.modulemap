@@ -1,6 +1,0 @@
-framework module Pods_LalaMoveTests {
-  umbrella header "Pods-LalaMoveTests-umbrella.h"
-
-  export *
-  module * { export * }
-}

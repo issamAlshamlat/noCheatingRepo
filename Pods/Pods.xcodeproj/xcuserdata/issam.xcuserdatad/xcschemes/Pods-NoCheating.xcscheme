@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "369C90099B19CFF26D985E5F677A1A42"
-               BuildableName = "Pods_LalaMoveTests.framework"
-               BlueprintName = "Pods-LalaMoveTests"
+               BlueprintIdentifier = "171CF316A343C12D3EFC918274B49421"
+               BuildableName = "Pods_NoCheating.framework"
+               BlueprintName = "Pods-NoCheating"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

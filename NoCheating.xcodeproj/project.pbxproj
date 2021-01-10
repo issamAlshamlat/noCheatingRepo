@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B10FA6AA595B0D8DF06B42FB /* Pods_LalaMoveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCABA63D1F4175BB388BA0DF /* Pods_LalaMoveTests.framework */; };
-		B2A511858F5688DD1C625D2A /* Pods_LalaMove_LalaMoveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A4438E026F2FA3BBBC6E081 /* Pods_LalaMove_LalaMoveUITests.framework */; };
+		215BECFC628B7C0436E4E32F /* Pods_NoCheatingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A787E3FB203029FB8380C6A /* Pods_NoCheatingTests.framework */; };
+		8AF9BEDD88FACB935E4D96FA /* Pods_NoCheating.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21135DB3E277E5C9CF3C8BB /* Pods_NoCheating.framework */; };
+		9E4ED61EED57EA352F1AC5DB /* Pods_NoCheating_NoCheatingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A0A355D8DE111FFDF6B283 /* Pods_NoCheating_NoCheatingUITests.framework */; };
 		C2221EEF25A9D73C00BE87E3 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2221EEE25A9D73C00BE87E3 /* DBManager.swift */; };
 		C26937F925A4E0DD0017281D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26937F825A4E0DD0017281D /* AppDelegate.swift */; };
 		C26937FB25A4E0DD0017281D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26937FA25A4E0DD0017281D /* SceneDelegate.swift */; };
@@ -26,7 +27,6 @@
 		C269385025A4E1110017281D /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = C269384B25A4E1110017281D /* Route.swift */; };
 		C269385125A4E1110017281D /* Sender.swift in Sources */ = {isa = PBXBuildFile; fileRef = C269384D25A4E1110017281D /* Sender.swift */; };
 		C269385225A4E1110017281D /* Delivery.swift in Sources */ = {isa = PBXBuildFile; fileRef = C269384F25A4E1110017281D /* Delivery.swift */; };
-		E2D0126A0B76C3BDD57A4C36 /* Pods_LalaMove.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333E522DAA9CB711D225174F /* Pods_LalaMove.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,11 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09A0A355D8DE111FFDF6B283 /* Pods_NoCheating_NoCheatingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoCheating_NoCheatingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		16B4CBD18EC175829224CA10 /* Pods-LalaMove-LalaMoveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LalaMove-LalaMoveUITests.release.xcconfig"; path = "Target Support Files/Pods-LalaMove-LalaMoveUITests/Pods-LalaMove-LalaMoveUITests.release.xcconfig"; sourceTree = "<group>"; };
-		333E522DAA9CB711D225174F /* Pods_LalaMove.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LalaMove.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BEB0D43E5DAEC120A477AD4 /* Pods-NoCheatingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoCheatingTests.debug.xcconfig"; path = "Target Support Files/Pods-NoCheatingTests/Pods-NoCheatingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E75A556DE4E84DABA41DC41 /* Pods-NoCheating.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoCheating.debug.xcconfig"; path = "Target Support Files/Pods-NoCheating/Pods-NoCheating.debug.xcconfig"; sourceTree = "<group>"; };
 		67E5246F73679B305D079A6F /* Pods-LalaMove.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LalaMove.debug.xcconfig"; path = "Target Support Files/Pods-LalaMove/Pods-LalaMove.debug.xcconfig"; sourceTree = "<group>"; };
+		6A787E3FB203029FB8380C6A /* Pods_NoCheatingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoCheatingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E279F01BD8ED16F7601C829 /* Pods-LalaMoveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LalaMoveTests.release.xcconfig"; path = "Target Support Files/Pods-LalaMoveTests/Pods-LalaMoveTests.release.xcconfig"; sourceTree = "<group>"; };
-		7A4438E026F2FA3BBBC6E081 /* Pods_LalaMove_LalaMoveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LalaMove_LalaMoveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C5F4618565669DFAAC2A454 /* Pods-NoCheating-NoCheatingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoCheating-NoCheatingUITests.debug.xcconfig"; path = "Target Support Files/Pods-NoCheating-NoCheatingUITests/Pods-NoCheating-NoCheatingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9A25E46996E6177400384437 /* Pods-LalaMove-LalaMoveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LalaMove-LalaMoveUITests.debug.xcconfig"; path = "Target Support Files/Pods-LalaMove-LalaMoveUITests/Pods-LalaMove-LalaMoveUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B83B5EA0336F6937544DC3C5 /* Pods-LalaMove.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LalaMove.release.xcconfig"; path = "Target Support Files/Pods-LalaMove/Pods-LalaMove.release.xcconfig"; sourceTree = "<group>"; };
 		C2221EEE25A9D73C00BE87E3 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
@@ -77,8 +80,11 @@
 		C269384B25A4E1110017281D /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
 		C269384D25A4E1110017281D /* Sender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sender.swift; sourceTree = "<group>"; };
 		C269384F25A4E1110017281D /* Delivery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delivery.swift; sourceTree = "<group>"; };
+		D6767413DCFF82B9FD1CE83C /* Pods-NoCheatingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoCheatingTests.release.xcconfig"; path = "Target Support Files/Pods-NoCheatingTests/Pods-NoCheatingTests.release.xcconfig"; sourceTree = "<group>"; };
+		DB3255FE5DA008D41FB599D8 /* Pods-NoCheating.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoCheating.release.xcconfig"; path = "Target Support Files/Pods-NoCheating/Pods-NoCheating.release.xcconfig"; sourceTree = "<group>"; };
+		E006BE7FF679A243B7C538F1 /* Pods-NoCheating-NoCheatingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoCheating-NoCheatingUITests.release.xcconfig"; path = "Target Support Files/Pods-NoCheating-NoCheatingUITests/Pods-NoCheating-NoCheatingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F21135DB3E277E5C9CF3C8BB /* Pods_NoCheating.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoCheating.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58470B795C1664C8E467F2B /* Pods-LalaMoveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LalaMoveTests.debug.xcconfig"; path = "Target Support Files/Pods-LalaMoveTests/Pods-LalaMoveTests.debug.xcconfig"; sourceTree = "<group>"; };
-		FCABA63D1F4175BB388BA0DF /* Pods_LalaMoveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LalaMoveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2D0126A0B76C3BDD57A4C36 /* Pods_LalaMove.framework in Frameworks */,
+				8AF9BEDD88FACB935E4D96FA /* Pods_NoCheating.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B10FA6AA595B0D8DF06B42FB /* Pods_LalaMoveTests.framework in Frameworks */,
+				215BECFC628B7C0436E4E32F /* Pods_NoCheatingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2A511858F5688DD1C625D2A /* Pods_LalaMove_LalaMoveUITests.framework in Frameworks */,
+				9E4ED61EED57EA352F1AC5DB /* Pods_NoCheating_NoCheatingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +124,12 @@
 				16B4CBD18EC175829224CA10 /* Pods-LalaMove-LalaMoveUITests.release.xcconfig */,
 				F58470B795C1664C8E467F2B /* Pods-LalaMoveTests.debug.xcconfig */,
 				6E279F01BD8ED16F7601C829 /* Pods-LalaMoveTests.release.xcconfig */,
+				5E75A556DE4E84DABA41DC41 /* Pods-NoCheating.debug.xcconfig */,
+				DB3255FE5DA008D41FB599D8 /* Pods-NoCheating.release.xcconfig */,
+				7C5F4618565669DFAAC2A454 /* Pods-NoCheating-NoCheatingUITests.debug.xcconfig */,
+				E006BE7FF679A243B7C538F1 /* Pods-NoCheating-NoCheatingUITests.release.xcconfig */,
+				3BEB0D43E5DAEC120A477AD4 /* Pods-NoCheatingTests.debug.xcconfig */,
+				D6767413DCFF82B9FD1CE83C /* Pods-NoCheatingTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -125,9 +137,9 @@
 		3C5F309CD53B97D2F72A00BA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				333E522DAA9CB711D225174F /* Pods_LalaMove.framework */,
-				7A4438E026F2FA3BBBC6E081 /* Pods_LalaMove_LalaMoveUITests.framework */,
-				FCABA63D1F4175BB388BA0DF /* Pods_LalaMoveTests.framework */,
+				F21135DB3E277E5C9CF3C8BB /* Pods_NoCheating.framework */,
+				09A0A355D8DE111FFDF6B283 /* Pods_NoCheating_NoCheatingUITests.framework */,
+				6A787E3FB203029FB8380C6A /* Pods_NoCheatingTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -428,7 +440,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LalaMoveTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-NoCheatingTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -450,7 +462,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LalaMove-LalaMoveUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-NoCheating-NoCheatingUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -463,15 +475,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LalaMove-LalaMoveUITests/Pods-LalaMove-LalaMoveUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-NoCheating-NoCheatingUITests/Pods-NoCheating-NoCheatingUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LalaMove-LalaMoveUITests/Pods-LalaMove-LalaMoveUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-NoCheating-NoCheatingUITests/Pods-NoCheating-NoCheatingUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LalaMove-LalaMoveUITests/Pods-LalaMove-LalaMoveUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NoCheating-NoCheatingUITests/Pods-NoCheating-NoCheatingUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BEAB54D53D85172A89C7E1F7 /* [CP] Check Pods Manifest.lock */ = {
@@ -489,7 +501,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LalaMove-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-NoCheating-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -502,15 +514,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LalaMove/Pods-LalaMove-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-NoCheating/Pods-NoCheating-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LalaMove/Pods-LalaMove-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-NoCheating/Pods-NoCheating-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LalaMove/Pods-LalaMove-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NoCheating/Pods-NoCheating-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -697,7 +709,7 @@
 		};
 		C269382025A4E0E40017281D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67E5246F73679B305D079A6F /* Pods-LalaMove.debug.xcconfig */;
+			baseConfigurationReference = 5E75A556DE4E84DABA41DC41 /* Pods-NoCheating.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -718,7 +730,7 @@
 		};
 		C269382125A4E0E40017281D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B83B5EA0336F6937544DC3C5 /* Pods-LalaMove.release.xcconfig */;
+			baseConfigurationReference = DB3255FE5DA008D41FB599D8 /* Pods-NoCheating.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -739,7 +751,7 @@
 		};
 		C269382325A4E0E40017281D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F58470B795C1664C8E467F2B /* Pods-LalaMoveTests.debug.xcconfig */;
+			baseConfigurationReference = 3BEB0D43E5DAEC120A477AD4 /* Pods-NoCheatingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -761,7 +773,7 @@
 		};
 		C269382425A4E0E40017281D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E279F01BD8ED16F7601C829 /* Pods-LalaMoveTests.release.xcconfig */;
+			baseConfigurationReference = D6767413DCFF82B9FD1CE83C /* Pods-NoCheatingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -783,7 +795,7 @@
 		};
 		C269382625A4E0E40017281D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A25E46996E6177400384437 /* Pods-LalaMove-LalaMoveUITests.debug.xcconfig */;
+			baseConfigurationReference = 7C5F4618565669DFAAC2A454 /* Pods-NoCheating-NoCheatingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -803,7 +815,7 @@
 		};
 		C269382725A4E0E40017281D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16B4CBD18EC175829224CA10 /* Pods-LalaMove-LalaMoveUITests.release.xcconfig */;
+			baseConfigurationReference = E006BE7FF679A243B7C538F1 /* Pods-NoCheating-NoCheatingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
