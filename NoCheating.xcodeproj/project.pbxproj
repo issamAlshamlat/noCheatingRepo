@@ -16,8 +16,8 @@
 		C26937FD25A4E0DD0017281D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26937FC25A4E0DD0017281D /* ViewController.swift */; };
 		C269380225A4E0E30017281D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C269380125A4E0E30017281D /* Assets.xcassets */; };
 		C269380525A4E0E30017281D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C269380325A4E0E30017281D /* LaunchScreen.storyboard */; };
-		C269381025A4E0E40017281D /* LalaMoveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C269380F25A4E0E40017281D /* LalaMoveTests.swift */; };
-		C269381B25A4E0E40017281D /* LalaMoveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C269381A25A4E0E40017281D /* LalaMoveUITests.swift */; };
+		C269381025A4E0E40017281D /* NoCheatingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C269380F25A4E0E40017281D /* NoCheatingTests.swift */; };
+		C269381B25A4E0E40017281D /* NoCheatingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C269381A25A4E0E40017281D /* NoCheatingUITests.swift */; };
 		C269383225A4E0FF0017281D /* BaseRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C269383025A4E0FF0017281D /* BaseRequestManager.swift */; };
 		C269383325A4E0FF0017281D /* LalaMoveRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C269383125A4E0FF0017281D /* LalaMoveRequestManager.swift */; };
 		C269383925A4E1070017281D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C269383825A4E1060017281D /* Constants.swift */; };
@@ -66,10 +66,10 @@
 		C269380425A4E0E30017281D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C269380625A4E0E30017281D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C269380B25A4E0E40017281D /* NoCheatingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoCheatingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C269380F25A4E0E40017281D /* LalaMoveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LalaMoveTests.swift; sourceTree = "<group>"; };
+		C269380F25A4E0E40017281D /* NoCheatingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoCheatingTests.swift; sourceTree = "<group>"; };
 		C269381125A4E0E40017281D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C269381625A4E0E40017281D /* NoCheatingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoCheatingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C269381A25A4E0E40017281D /* LalaMoveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LalaMoveUITests.swift; sourceTree = "<group>"; };
+		C269381A25A4E0E40017281D /* NoCheatingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoCheatingUITests.swift; sourceTree = "<group>"; };
 		C269381C25A4E0E40017281D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C269383025A4E0FF0017281D /* BaseRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRequestManager.swift; sourceTree = "<group>"; };
 		C269383125A4E0FF0017281D /* LalaMoveRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LalaMoveRequestManager.swift; sourceTree = "<group>"; };
@@ -190,29 +190,29 @@
 			path = NoCheating;
 			sourceTree = "<group>";
 		};
-		C269380E25A4E0E40017281D /* LalaMoveTests */ = {
+		C269380E25A4E0E40017281D /* NoCheatingTests */ = {
 			isa = PBXGroup;
 			children = (
-				C269380F25A4E0E40017281D /* LalaMoveTests.swift */,
+				C269380F25A4E0E40017281D /* NoCheatingTests.swift */,
 				C269381125A4E0E40017281D /* Info.plist */,
 			);
-			path = LalaMoveTests;
+			path = NoCheatingTests;
 			sourceTree = "<group>";
 		};
-		C269381925A4E0E40017281D /* LalaMoveUITests */ = {
+		C269381925A4E0E40017281D /* NoCheatingUITests */ = {
 			isa = PBXGroup;
 			children = (
-				C269381A25A4E0E40017281D /* LalaMoveUITests.swift */,
+				C269381A25A4E0E40017281D /* NoCheatingUITests.swift */,
 				C269381C25A4E0E40017281D /* Info.plist */,
 			);
-			path = LalaMoveUITests;
+			path = NoCheatingUITests;
 			sourceTree = "<group>";
 		};
 		C269382B25A4E0EB0017281D /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				C269381925A4E0E40017281D /* LalaMoveUITests */,
-				C269380E25A4E0E40017281D /* LalaMoveTests */,
+				C269381925A4E0E40017281D /* NoCheatingUITests */,
+				C269380E25A4E0E40017281D /* NoCheatingTests */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -552,7 +552,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C269381025A4E0E40017281D /* LalaMoveTests.swift in Sources */,
+				C269381025A4E0E40017281D /* NoCheatingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,7 +560,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C269381B25A4E0E40017281D /* LalaMoveUITests.swift in Sources */,
+				C269381B25A4E0E40017281D /* NoCheatingUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -756,7 +756,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = LalaMoveTests/Info.plist;
+				INFOPLIST_FILE = Tests/NoCheatingTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -778,7 +778,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = LalaMoveTests/Info.plist;
+				INFOPLIST_FILE = Tests/NoCheatingTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -799,7 +799,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = LalaMoveUITests/Info.plist;
+				INFOPLIST_FILE = Tests/NoCheatingUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -809,7 +809,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = LalaMove;
+				TEST_TARGET_NAME = NoCheating;
 			};
 			name = Debug;
 		};
@@ -819,7 +819,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = LalaMoveUITests/Info.plist;
+				INFOPLIST_FILE = Tests/NoCheatingUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -829,7 +829,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = LalaMove;
+				TEST_TARGET_NAME = NoCheating;
 			};
 			name = Release;
 		};
